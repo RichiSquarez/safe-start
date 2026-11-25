@@ -1,0 +1,7 @@
+--------- beginning of main
+--------- beginning of system
+11-23 23:20:14.219  2830  2830 I Safestart: allowlist (5): [no.safestart.kiosk, com.android.dialer, com.android.messaging, com.android.camera2, no.skyss.billett]
+11-23 23:20:14.226  2830  2830 I Safestart: applied allowlist: [no.safestart.kiosk, com.android.dialer, com.android.messaging, com.android.camera2, no.skyss.billett]
+11-23 23:20:18.605  2830  2830 I Safestart: allowlist (5): [no.safestart.kiosk, com.android.dialer, com.android.messaging, com.android.camera2, no.skyss.billett]
+11-23 23:20:18.608  2830  2830 I Safestart: applied allowlist: [no.safestart.kiosk, com.android.dialer, com.android.messaging, com.android.camera2, no.skyss.billett]
+

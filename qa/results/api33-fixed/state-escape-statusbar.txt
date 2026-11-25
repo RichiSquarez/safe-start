@@ -1,0 +1,47 @@
+=== lock: dumpsys activity | grep -i lock
+#26: BroadcastRecord{8575eb0 u0 android.intent.action.USER_UNLOCKED}
+    act=android.intent.action.USER_UNLOCKED flg=0x50000010 (has extras)
+    extras: Bundle[{host_connected=false, connected=false, unlocked=false, adb=true, configured=false}]
+  #7: BroadcastRecord{5bc265f u0 android.app.action.LOCK_TASK_ENTERING}
+    act=android.app.action.LOCK_TASK_ENTERING flg=0x10 (has extras)
+    extras: Bundle[{android.app.extra.LOCK_TASK_PACKAGE=no.safestart.kiosk}]
+  #15: BroadcastRecord{3adb94d u0 android.app.action.LOCK_TASK_EXITING}
+    act=android.app.action.LOCK_TASK_EXITING flg=0x10
+  #1: BroadcastRecord{12252f0 u0 android.intent.action.LOCKED_BOOT_COMPLETED}
+    act=android.intent.action.LOCKED_BOOT_COMPLETED flg=0x89000010 (has extras)
+  #3: act=android.intent.action.LOCKED_BOOT_COMPLETED flg=0x89000010 (has extras)
+  * Sticky action android.os.UpdateLock.UPDATE_LOCK_CHANGED
+      -> 1304:com.android.deskclock/u0a97 s1/1 u0/0 +1m57s52ms
+  * ContentProviderRecord{89e4d94 u0 com.android.dialer/.blocking.FilteredNumberProvider}
+    authority=com.android.dialer.blocking.filterednumberprovider
+  * ContentProviderRecord{65fdca9 u0 com.android.providers.blockednumber/.BlockedNumberProvider}
+    authority=com.android.blockednumber
+  * ContentProviderRecord{5962beb u0 com.android.deskclock/.provider.ClockProvider}
+    proc=ProcessRecord{4fb3aa 1304:com.android.deskclock/u0a97}
+    authority=com.android.deskclock
+  mLastWakeLockHoldingWindow=null
+  mLastWakeLockObscuringWindow=null
+    mShowingDream=false mDreamingLockscreen=false
+    mForceShowNavigationBarEnabled=false mAllowLockscreenWhenOn=false
+    mDemoHdmiRotation=ROTATION_90 mDemoHdmiRotationLock=false mUndockedHdmiRotation=-1
+  LockTaskController:
+    mLockTaskModeState=LOCKED
+    mLockTaskModeTasks=
+    mLockTaskPackages (userId:packages)=
+    Proc #26: cch+95 b/ /CEM  ----  t: 0 1304:com.android.deskclock/u0a97 (cch-empty)
+      proc=ProcessRecord{4fb3aa 1304:com.android.deskclock/u0a97}
+    #19: cch+95 CEM  ---- 1304:com.android.deskclock/u0a97
+    Proc #26: cch+95 b/ /CEM  ----  t: 0 1304:com.android.deskclock/u0a97 (cch-empty)
+  mGoingToSleepWakeLock=WakeLock{8cf3bab held=false, refCount=0}
+  mLaunchingActivityWakeLock=WakeLock{5acb208 held=false, refCount=3}
+    User #0: state=RUNNING_UNLOCKED
+  mDelayUserDataLocking:false
+  mAllowUserUnlocking:true
+  mLastUserUnlockingUptime:15972
+=== policy: dumpsys device_policy | grep -i -E 'owner|lock task|status'
+Device Owner: 
+    mPasswordOwner=-1
+  Encryption Status: per-user
+=== fg: dumpsys activity activities | grep -E 'mResumedActivity|mFocusedActivity|ResumedActivity'
+topResumedActivity=ActivityRecord{35fe76 u0 no.safestart.kiosk/.HomeActivity} t16}
+  ResumedActivity: ActivityRecord{35fe76 u0 no.safestart.kiosk/.HomeActivity} t16}

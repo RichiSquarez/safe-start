@@ -1,0 +1,3 @@
+'Emergency' @136,161
+'Power off' @360,161
+'Restart' @584,161

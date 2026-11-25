@@ -1,0 +1,38 @@
+=== lock: dumpsys activity | grep -i lock
+#3: BroadcastRecord{1cd080c u0 android.intent.action.USER_UNLOCKED}
+    act=android.intent.action.USER_UNLOCKED flg=0x50000010 (has extras)
+    extras: Bundle[{host_connected=false, connected=true, unlocked=false, adb=true, configured=true}]
+  #23: act=android.intent.action.USER_UNLOCKED flg=0x50000010 (has extras)
+    extras: Bundle[{host_connected=false, connected=true, unlocked=false, adb=true, configured=true}]
+  #25: BroadcastRecord{eccba46 u0 android.app.action.LOCK_TASK_ENTERING}
+    act=android.app.action.LOCK_TASK_ENTERING flg=0x10 (has extras)
+    extras: Bundle[{android.app.extra.LOCK_TASK_PACKAGE=no.safestart.kiosk}]
+  #40: BroadcastRecord{82b8add u0 android.intent.action.LOCKED_BOOT_COMPLETED}
+    act=android.intent.action.LOCKED_BOOT_COMPLETED flg=0x9000010 (has extras)
+  * Sticky action android.os.UpdateLock.UPDATE_LOCK_CHANGED
+      -> 799:com.android.deskclock/u0a110 s1/1 u0/0 +31s522ms
+  * ContentProviderRecord{41d3dc4 u0 com.android.providers.blockednumber/.BlockedNumberProvider}
+    authority=com.android.blockednumber
+  * ContentProviderRecord{6456ea9 u0 com.android.deskclock/.provider.ClockProvider}
+    proc=ProcessRecord{2fdcc2e 799:com.android.deskclock/u0a110}
+    authority=com.android.deskclock
+    UID 10061, binder count = 11, package(s)= com.android.providers.blockednumber; com.android.calllogbackup; com.android.providers.contacts; com.android.providers.userdictionary; 
+    UID 10110, binder count = 13, package(s)= com.android.deskclock; 
+      rootWasReset=false mNeverRelinquishIdentity=true mReuseTask=false mLockTaskAuth=LOCK_TASK_AUTH_WHITELISTED
+  LockTaskController
+    mLockTaskModeState=LOCKED
+    mLockTaskModeTasks=
+    mLockTaskPackages (userId:packages)=
+    #10: cch+75 CEM  799:com.android.deskclock/u0a110 
+    Proc #17: cch+75 B/ /CEM  trm: 0 799:com.android.deskclock/u0a110 (cch-empty)
+    User #0: state=RUNNING_UNLOCKED
+  mGoingToSleepWakeLock=WakeLock{9dfd2f9 held=false, refCount=0}
+  mLaunchingActivityWakeLock=WakeLock{c2ae23e held=false, refCount=0}
+=== policy: dumpsys device_policy | grep -i -E 'owner|lock task|status'
+Device Owner: 
+    mPasswordOwner=-1
+  Encryption Status: unsupported
+=== fg: dumpsys activity activities | grep -E 'mResumedActivity|mFocusedActivity|ResumedActivity'
+mResumedActivity: ActivityRecord{d7219c1 u0 no.safestart.kiosk/.HomeActivity t11}
+ ResumedActivity:ActivityRecord{d7219c1 u0 no.safestart.kiosk/.HomeActivity t11}
+  ResumedActivity: ActivityRecord{d7219c1 u0 no.safestart.kiosk/.HomeActivity t11}

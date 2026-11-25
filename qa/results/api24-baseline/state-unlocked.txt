@@ -1,0 +1,26 @@
+=== lock: dumpsys activity | grep -i lock
+#10: BroadcastRecord{6fc49ea u0 android.intent.action.USER_UNLOCKED}
+    act=android.intent.action.USER_UNLOCKED flg=0x50000010 (has extras)
+    extras: Bundle[{host_connected=false, connected=true, unlocked=false, adb=true, configured=false}]
+  #40: act=android.intent.action.USER_UNLOCKED flg=0x50000010 (has extras)
+  #0: BroadcastRecord{890ad49 u0 android.app.action.LOCK_TASK_EXITING}
+    act=android.app.action.LOCK_TASK_EXITING flg=0x10
+  #50: act=android.app.action.LOCK_TASK_EXITING flg=0x10
+  * Sticky action android.os.UpdateLock.UPDATE_LOCK_CHANGED
+  * ContentProviderRecord{553dff3 u0 com.android.providers.blockednumber/.BlockedNumberProvider}
+    authority=com.android.blockednumber
+  * ContentProviderRecord{213d812 u0 com.android.deskclock/.provider.ClockProvider}
+    proc=ProcessRecord{e34abe3 1624:com.android.deskclock/u0a32}
+    authority=com.android.deskclock
+  mLockTaskModeState=NONE mLockTaskPackages (userId:packages)=
+ mLockTaskModeTasks[]
+    Proc #18: cch+4 B/ /CE trm: 0 1624:com.android.deskclock/u0a32 (cch-empty)
+    User #0: state=RUNNING_UNLOCKED
+  mSleeping=false mLockScreenShown=LOCK_SCREEN_HIDDEN
+=== policy: dumpsys device_policy | grep -i -E 'owner|lock task|status'
+Device Owner: 
+    mPasswordOwner=-1
+Encryption Status: unsupported
+=== fg: dumpsys activity activities | grep -E 'mResumedActivity|mFocusedActivity|ResumedActivity'
+mResumedActivity: ActivityRecord{188daf2 u0 no.safestart.kiosk/.ParentActivity t14}
+  mFocusedActivity: ActivityRecord{188daf2 u0 no.safestart.kiosk/.ParentActivity t14}

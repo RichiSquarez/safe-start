@@ -1,0 +1,4 @@
+"Allow Camera to access this device's location?" @360,450
+'ALLOW ALL THE TIME' @360,607
+'ALLOW ONLY WHILE USING THE APP' @360,721
+'DENY' @360,835

@@ -1,0 +1,14 @@
+'FORELDRE' @272,58
+'Innstillinger' @272,113
+'Lukk' @584,99
+'Device Owner: aktiv — telefonen er låst til Safestart' @360,179
+'Telefonnummer til foreldrene' @360,215
+'Lagre nummer' @360,296
+'Tillat direkte oppringing' @360,416
+'LÅSING' @360,508
+'Med Device Owner kan telefonen låses til Safestart: barnet kommer ikke ut, og du kommer inn med PIN-koden. Uten Device Owner er Safestart bare hjemmeskjermen, og barnet kan bytte til en annen skjerm.' @360,630
+'Lås telefonen til Safestart' @360,765
+'Lås opp telefonen' @360,885
+'SKYSS' @360,977
+'Pakkenavn, f.eks. no.skyss.billett' @360,1074
+'Lagre pakkenavn' @360,1158

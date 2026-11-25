@@ -1,0 +1,3 @@
+'Power off' @584,379
+'Restart' @584,563
+'Screenshot' @583,747

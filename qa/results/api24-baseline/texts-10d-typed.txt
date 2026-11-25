@@ -1,0 +1,18 @@
+'FORELDRE' @272,58
+'Innstillinger' @272,113
+'Lukk' @584,99
+'Device Owner: aktiv — telefonen er låst til Safestart' @360,179
+'Skyss' @313,250
+'Bussbillett' @313,287
+'ON' @597,265
+'Sjakk' @313,395
+'Mot en bot' @313,432
+'ON' @597,410
+'PIN-KODE' @360,517
+'••••••••' @360,616
+'Lagre ny PIN' @360,728
+'MAMMA & PAPPA' @360,820
+'Telefonnummer til foreldrene' @360,919
+'Lagre nummer' @360,1031
+'Tillat direkte oppringing' @360,1142
+'LÅSING' @0,0

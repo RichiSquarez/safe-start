@@ -1,0 +1,24 @@
+=== lock: dumpsys activity | grep -i lock
+wake_lock_min_check_duration=300000
+  #4: BroadcastRecord{bb5ea93 u0 android.intent.action.USER_UNLOCKED}
+    act=android.intent.action.USER_UNLOCKED flg=0x50000010 (has extras)
+    extras: Bundle[{host_connected=false, connected=true, unlocked=false, config_changed=false, adb=true, configured=false}]
+  #20: act=android.intent.action.USER_UNLOCKED flg=0x50000010 (has extras)
+    extras: Bundle[{host_connected=false, connected=true, unlocked=false, config_changed=false, adb=true, configured=false}]
+  * Sticky action android.os.UpdateLock.UPDATE_LOCK_CHANGED
+  * ContentProviderRecord{dfac216 u0 com.android.providers.blockednumber/.BlockedNumberProvider}
+    authority=com.android.blockednumber
+  * ContentProviderRecord{ad70633 u0 com.android.deskclock/.provider.ClockProvider}
+    proc=ProcessRecord{fe35df0 1863:com.android.deskclock/u0a37}
+    authority=com.android.deskclock
+  mLockTaskModeState=LOCKED  mLockTaskPackages (userId:packages)=
+ mLockTaskModeTasks[TaskRecord{832ff52 #6 A=no.safestart.kiosk U=0 StackId=0 sz=1}]
+    Proc #12: cch+2 B/ /CEM  trm: 0 1863:com.android.deskclock/u0a37 (cch-empty)
+    User #0: state=RUNNING_UNLOCKED
+=== policy: dumpsys device_policy | grep -i -E 'owner|lock task|status'
+Device Owner: 
+    mPasswordOwner=-1
+  Encryption Status: unsupported
+=== fg: dumpsys activity activities | grep -E 'mResumedActivity|mFocusedActivity|ResumedActivity'
+mResumedActivity: ActivityRecord{6ba196b u0 no.safestart.kiosk/.HomeActivity t6}
+  ResumedActivity: ActivityRecord{6ba196b u0 no.safestart.kiosk/.HomeActivity t6}

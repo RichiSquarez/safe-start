@@ -1,0 +1,3 @@
+"Allow Camera to access this device's location?" @400,554
+'DENY' @412,684
+'ALLOW' @546,684

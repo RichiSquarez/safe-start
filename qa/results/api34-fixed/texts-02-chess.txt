@@ -1,0 +1,6 @@
+'SAFESTART' @292,50
+'Sjakk' @292,96
+'Tilbake' @612,82
+'Din tur. Du spiller hvitt.' @360,179
+'Nivå 1 · lett' @133,1205
+'Ny runde' @595,1205

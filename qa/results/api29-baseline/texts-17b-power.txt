@@ -1,0 +1,4 @@
+'Power off' @632,448
+'Restart' @632,592
+'Screenshot' @632,736
+'Emergency' @632,900

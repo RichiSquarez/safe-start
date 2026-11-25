@@ -1,0 +1,19 @@
+'FORELDRE' @272,58
+'Innstillinger' @272,113
+'Lukk' @584,99
+'Device Owner: aktiv — telefonen er låst til Safestart' @360,179
+'HVA BARNET FÅR BRUKE' @360,278
+'Ring' @320,385
+'Kan ikke slås av — det er hele poenget' @320,422
+'ALLTID' @604,400
+'Meldinger' @313,530
+'SMS til kjente' @313,567
+'Kamera' @313,675
+'Ta bilder' @313,712
+'Kart' @313,820
+'Se hvor du er' @313,857
+'Skyss' @313,965
+'Bussbillett' @313,1002
+'Sjakk' @313,1110
+'Mot en bot' @313,1147
+'PIN-KODE' @360,1211

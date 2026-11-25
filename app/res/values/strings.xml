@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Safestart</string>
+    <string name="parent_title">Foreldreinnstillinger</string>
+    <string name="chess_title">Sjakk</string>
+</resources>

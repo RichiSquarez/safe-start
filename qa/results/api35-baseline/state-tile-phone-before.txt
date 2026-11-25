@@ -1,0 +1,55 @@
+=== lock: dumpsys activity | grep -i lock
+bcast_max_core_running_blocking_broadcasts=16 
+    bcast_max_core_running_non_blocking_broadcasts=64 
+    #2: BroadcastRecord{578b25a android.app.action.LOCK_TASK_ENTERING/u0}
+      act=android.app.action.LOCK_TASK_ENTERING flg=0x10 cmp=no.safestart.kiosk/.AdminReceiver (has extras)
+      extras: Bundle[{android.app.extra.LOCK_TASK_PACKAGE=no.safestart.kiosk}]
+    #3: BroadcastRecord{ad92995 android.app.action.LOCK_TASK_EXITING/u0}
+      act=android.app.action.LOCK_TASK_EXITING flg=0x10 cmp=no.safestart.kiosk/.AdminReceiver
+    #6: BroadcastRecord{74e63cc android.app.action.LOCK_TASK_ENTERING/u0}
+      act=android.app.action.LOCK_TASK_ENTERING flg=0x10 cmp=no.safestart.kiosk/.AdminReceiver (has extras)
+      extras: Bundle[{android.app.extra.LOCK_TASK_PACKAGE=no.safestart.kiosk}]
+      extras: Bundle[{android.intent.extra.changed_component_name=com.android.adservices.service.common.PackageChangedReceiver, android.intent.extra.DONT_KILL_APP=true, android.intent.extra.UID=10130, android.intent.extra.changed_component_name_list=[com.android.adservices.service.common.PackageChangedReceiver, com.android.adservices.ui.settings.activities.AdServicesSettingsMainActivity, com.android.adservices.ui.settings.activities.TopicsActivity, com.android.adservices.ui.settings.activities.BlockedTopicsActivity, com.android.adservices.ui.settings.activities.AppsActivity, com.android.adservices.ui.settings.activities.BlockedAppsActivity, com.android.adservices.ui.settings.activities.MeasurementActivity, com.android.adservices.ui.notifications.ConsentNotificationActivity, com.android.adservices.adid.AdIdService, com.android.adservices.measurement.MeasurementService, com.android.adservices.common.AdServicesCommonService, com.android.adservices.adselection.AdSelectionService, com.android.adservices.customaudience.CustomAudienceService, android.adservices.signals.ProtectedSignalsService, com.android.adservices.topics.TopicsService, com.android.adservices.appsetid.AppSetIdService], android.intent.extra.user_handle=0}]
+      act=android.intent.action.PACKAGE_CHANGED dat=package:com.android.devicelockcontroller flg=0x5000010 (has extras)
+      extras: Bundle[{android.intent.extra.changed_component_name=com.android.devicelockcontroller, android.intent.extra.DONT_KILL_APP=false, android.intent.extra.UID=10144, android.intent.extra.changed_component_name_list=[com.android.devicelockcontroller], android.intent.extra.user_handle=0}]
+      extras: Bundle[{android.telephony.extra.SUBSCRIPTION_INDEX=1, android.telephony.extra.SLOT_INDEX=0, android.telephony.extra.CARRIER_ID=1, phone=0, subscription=1, android.telephony.extra.SPECIFIC_CARRIER_ID=1, android.telephony.extra.REBROADCAST_ON_UNLOCK=false}]
+    #130: BroadcastRecord{d79d5a9 android.intent.action.LOCKED_BOOT_COMPLETED/u0}
+      act=android.intent.action.LOCKED_BOOT_COMPLETED flg=0x89000010 (has extras)
+      extras: Bundle[{android.telephony.extra.SUBSCRIPTION_INDEX=1, android.telephony.extra.SLOT_INDEX=0, phoneName=Phone, reason=null, rebroadcastOnUnlock=true, ss=LOADED, phone=0, subscription=1}]
+    #150: BroadcastRecord{fd6b657 android.intent.action.USER_UNLOCKED/u0}
+      act=android.intent.action.USER_UNLOCKED flg=0x50000010 (has extras)
+      extras: Bundle[{host_connected=false, connected=false, unlocked=false, adb=true, configured=false}]
+      extras: Bundle[{android.telephony.extra.SLOT_INDEX=0, android.telephony.extra.REBROADCAST_ON_UNLOCK=false}]
+      extras: Bundle[{android.safetycenter.extra.REFRESH_SAFETY_SOURCES_REQUEST_TYPE=1, android.safetycenter.extra.REFRESH_SAFETY_SOURCES_BROADCAST_ID=e9d6e179-6914-432b-a777-7d2ae91902f3_0, android.safetycenter.extra.REFRESH_SAFETY_SOURCE_IDS=[AndroidLockScreen, AndroidBiometrics, AndroidPrivateSpace]}]
+  * Sticky action android.os.UpdateLock.UPDATE_LOCK_CHANGED
+  * ContentProviderRecord{a991677 u0 com.android.providers.blockednumber/.BlockedNumberProvider}
+    authority=com.android.blockednumber
+  mLastWakeLockHoldingWindow=null
+  mLastWakeLockObscuringWindow=Window{e060da0 u0 no.safestart.kiosk/no.safestart.kiosk.HomeActivity}
+    canShowWhenLocked=true
+    mShowingDream=false mDreamingLockscreen=false
+    mForceShowNavigationBarEnabled=false mAllowLockscreenWhenOn=false
+    mDemoHdmiRotation=ROTATION_90 mDemoHdmiRotationLock=false mUndockedHdmiRotation=-1
+    RotationLockHistory
+      11-24 14:15:07.501: mode=USER_ROTATION_FREE, rotation=ROTATION_0, caller=UiAutomationConnection#restoreRotationStateLocked
+      11-24 14:15:13.637: mode=USER_ROTATION_FREE, rotation=ROTATION_0, caller=UiAutomationConnection#restoreRotationStateLocked
+      11-24 14:15:15.901: mode=USER_ROTATION_FREE, rotation=ROTATION_0, caller=UiAutomationConnection#restoreRotationStateLocked
+  LockTaskController:
+    mLockTaskModeState=LOCKED
+    mLockTaskModeTasks=
+    mLockTaskPackages (userId:packages)=
+  mGoingToSleepWakeLock=WakeLock{23bfc79 held=false, refCount=0}
+  mLaunchingActivityWakeLock=WakeLock{90d8dbe held=false, refCount=1}
+    User #0: state=RUNNING_UNLOCKED
+  mLastActiveUsersForDelayedLocking:[]
+  mDelayUserDataLocking:false
+  mAllowUserUnlocking:true
+  mLastUserUnlockingUptime: 16274
+=== policy: dumpsys device_policy | grep -i -E 'owner|lock task|status'
+Device Owner: 
+    mPasswordOwner=-1
+Encryption Status: per-user
+  Device Owner Type: 0
+=== fg: dumpsys activity activities | grep -E 'mResumedActivity|mFocusedActivity|ResumedActivity'
+topResumedActivity=ActivityRecord{3196720 u0 no.safestart.kiosk/.HomeActivity t10}
+  ResumedActivity: ActivityRecord{3196720 u0 no.safestart.kiosk/.HomeActivity t10}

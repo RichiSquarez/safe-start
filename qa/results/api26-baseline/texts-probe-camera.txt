@@ -1,0 +1,20 @@
+'Safestart' @170,68
+'22:03' @581,57
+'LÅST' @581,90
+'Hei!' @360,168
+'Hva vil du gjøre?' @360,223
+'Ring' @193,438
+'Alltid tilgjengelig' @193,482
+'Meldinger' @509,438
+'SMS til kjente' @509,482
+'Kamera' @193,722
+'Ta bilder' @193,766
+'Kart' @509,722
+'Ikke her' @509,766
+'Skyss' @193,1006
+'Bussbillett' @193,1050
+'Sjakk' @509,1006
+'Mot en bot' @509,1050
+'Mamma & Pappa' @391,1134
+'Ett trykk ringer hjem' @391,1166
+'Telefonen virker alltid.' @0,0

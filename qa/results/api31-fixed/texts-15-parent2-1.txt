@@ -1,0 +1,17 @@
+'FORELDRE' @272,58
+'Innstillinger' @272,113
+'Lukk' @584,99
+'Device Owner: aktiv — telefonen er låst til Safestart' @360,179
+'Meldinger' @313,274
+'SMS til kjente' @313,311
+'Kamera' @313,419
+'Ta bilder' @313,456
+'Kart' @313,564
+'Se hvor du er' @313,601
+'Skyss' @313,709
+'Bussbillett' @313,746
+'Sjakk' @313,854
+'Mot en bot' @313,891
+'PIN-KODE' @360,976
+'Ny PIN (4–8 siffer)' @360,1075
+'Lagre ny PIN' @360,1160

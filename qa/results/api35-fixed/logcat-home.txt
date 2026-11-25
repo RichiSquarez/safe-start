@@ -1,0 +1,42 @@
+--------- beginning of main
+11-25 08:26:48.775  1377  1377 I Safestart: pakke ikke synlig eller installert: no.skyss.billett
+11-25 08:26:48.777  1377  1377 I Safestart: pakke ikke synlig eller installert: no.skyss.reise
+11-25 08:26:48.783  1377  1377 I Safestart: pakke ikke synlig eller installert: no.skyss
+11-25 08:26:48.783  1377  1377 I Safestart: pakke ikke synlig eller installert: no.skyss.tickets
+11-25 08:26:48.794  1377  1377 I Safestart: pakke ikke synlig eller installert: no.skyss.billett
+11-25 08:26:48.796  1377  1377 I Safestart: pakke ikke synlig eller installert: no.skyss.reise
+11-25 08:26:48.796  1377  1377 I Safestart: pakke ikke synlig eller installert: no.skyss
+11-25 08:26:48.798  1377  1377 I Safestart: pakke ikke synlig eller installert: no.skyss.tickets
+11-25 08:26:48.798  1377  1377 I Safestart: allowlist (4): [no.safestart.kiosk, com.android.dialer, com.android.messaging, com.android.camera2]
+11-25 08:26:48.926  1377  1377 I Safestart: applied allowlist: [com.android.messaging, com.android.camera2, no.safestart.kiosk, com.android.dialer]
+11-25 08:26:49.334  1377  1377 I Safestart: boot receiver: android.intent.action.BOOT_COMPLETED
+11-25 08:26:49.350  1377  1377 I Safestart: pakke ikke synlig eller installert: no.skyss.billett
+11-25 08:26:49.350  1377  1377 I Safestart: pakke ikke synlig eller installert: no.skyss.reise
+11-25 08:26:49.351  1377  1377 I Safestart: pakke ikke synlig eller installert: no.skyss
+11-25 08:26:49.351  1377  1377 I Safestart: pakke ikke synlig eller installert: no.skyss.tickets
+11-25 08:26:49.351  1377  1377 I Safestart: allowlist (4): [no.safestart.kiosk, com.android.dialer, com.android.messaging, com.android.camera2]
+11-25 08:26:49.608  1377  1377 I Safestart: applied allowlist: [com.android.messaging, com.android.camera2, no.safestart.kiosk, com.android.dialer]
+11-25 08:26:53.349  1942  1942 I Safestart: boot receiver: android.intent.action.MY_PACKAGE_REPLACED
+11-25 08:26:53.351  1942  1942 I Safestart: pakke ikke synlig eller installert: no.skyss.billett
+11-25 08:26:53.351  1942  1942 I Safestart: pakke ikke synlig eller installert: no.skyss.reise
+11-25 08:26:53.351  1942  1942 I Safestart: pakke ikke synlig eller installert: no.skyss
+11-25 08:26:53.351  1942  1942 I Safestart: pakke ikke synlig eller installert: no.skyss.tickets
+11-25 08:26:53.351  1942  1942 I Safestart: allowlist (4): [no.safestart.kiosk, com.android.dialer, com.android.messaging, com.android.camera2]
+11-25 08:26:53.355  1942  1942 I Safestart: applied allowlist: [com.android.messaging, com.android.camera2, no.safestart.kiosk, com.android.dialer]
+11-25 08:26:53.375  1942  1942 I Safestart: pakke ikke synlig eller installert: no.skyss.billett
+11-25 08:26:53.375  1942  1942 I Safestart: pakke ikke synlig eller installert: no.skyss.reise
+11-25 08:26:53.375  1942  1942 I Safestart: pakke ikke synlig eller installert: no.skyss
+11-25 08:26:53.375  1942  1942 I Safestart: pakke ikke synlig eller installert: no.skyss.tickets
+11-25 08:26:53.376  1942  1942 I Safestart: pakke ikke synlig eller installert: no.skyss.billett
+11-25 08:26:53.376  1942  1942 I Safestart: pakke ikke synlig eller installert: no.skyss.reise
+11-25 08:26:53.377  1942  1942 I Safestart: pakke ikke synlig eller installert: no.skyss
+11-25 08:26:53.377  1942  1942 I Safestart: pakke ikke synlig eller installert: no.skyss.tickets
+11-25 08:26:53.377  1942  1942 I Safestart: allowlist (4): [no.safestart.kiosk, com.android.dialer, com.android.messaging, com.android.camera2]
+11-25 08:26:53.379  1942  1942 I Safestart: applied allowlist: [com.android.messaging, com.android.camera2, no.safestart.kiosk, com.android.dialer]
+11-25 08:26:53.498  1942  1942 I Safestart: allowlist (5): [no.safestart.kiosk, com.android.dialer, com.android.messaging, com.android.camera2, no.skyss.billett]
+11-25 08:26:53.504  1942  1942 I Safestart: applied allowlist: [com.android.messaging, com.android.camera2, no.skyss.billett, no.safestart.kiosk, com.android.dialer]
+11-25 08:26:53.679  1942  1942 I Safestart: allowlist (5): [no.safestart.kiosk, com.android.dialer, com.android.messaging, com.android.camera2, no.skyss.billett]
+11-25 08:26:53.682  1942  1942 I Safestart: applied allowlist: [com.android.messaging, com.android.camera2, no.skyss.billett, no.safestart.kiosk, com.android.dialer]
+11-25 08:26:58.807  1942  1942 I Safestart: allowlist (5): [no.safestart.kiosk, com.android.dialer, com.android.messaging, com.android.camera2, no.skyss.billett]
+11-25 08:26:58.812  1942  1942 I Safestart: applied allowlist: [com.android.messaging, com.android.camera2, no.skyss.billett, no.safestart.kiosk, com.android.dialer]
+

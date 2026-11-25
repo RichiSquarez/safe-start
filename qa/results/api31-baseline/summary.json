@@ -1,0 +1,81 @@
+{
+  "api": "31",
+  "label": "baseline",
+  "tiles": {
+    "home": {
+      "phone": "Ikke her",
+      "sms": "SMS til kjente",
+      "camera": "Ikke her",
+      "maps": "Ikke her",
+      "skyss": "Ikke her",
+      "chess": "Mot en bot"
+    },
+    "after_reboot": {
+      "phone": "Ikke her",
+      "sms": "SMS til kjente",
+      "camera": "Ikke her",
+      "maps": "Ikke her",
+      "skyss": "Ikke her",
+      "chess": "Mot en bot"
+    }
+  },
+  "steps": {
+    "lock_task_at_start": true,
+    "launch_phone": "opened com.android.messaging/.ui.conversationlist.ConversationListActivity",
+    "launch_sms": "opened com.android.messaging/.ui.conversationlist.ConversationListActivity",
+    "launch_camera": "TILE MISSING",
+    "launch_skyss": "BLOCKED (still no.safestart.kiosk/.HomeActivity)",
+    "pin_dialog": true,
+    "parent_reached": false,
+    "parent_refused_without_pin": true,
+    "parent_number_field": false,
+    "unlock_tapped": false,
+    "power_menu_texts": []
+  },
+  "lock": {
+    "home": true,
+    "tile-phone-before": true,
+    "tile-phone": true,
+    "tile-sms-before": true,
+    "tile-sms": true,
+    "tile-skyss-before": true,
+    "tile-skyss": true,
+    "after-tile-probes": true,
+    "chess": true,
+    "after-chess": true,
+    "escape-home": true,
+    "escape-recents": true,
+    "escape-statusbar": true,
+    "escape-back": true,
+    "foreign-app": true,
+    "parent": true,
+    "before-direct": true,
+    "parent-direct": true,
+    "relocked": true,
+    "after-power": false,
+    "after-reboot": true
+  },
+  "foreground": {
+    "home": "no.safestart.kiosk/.HomeActivity",
+    "tile-phone-before": "no.safestart.kiosk/.HomeActivity",
+    "tile-phone": "com.android.messaging/.ui.conversationlist.ConversationListActivity",
+    "tile-sms-before": "no.safestart.kiosk/.HomeActivity",
+    "tile-sms": "com.android.messaging/.ui.conversationlist.ConversationListActivity",
+    "tile-skyss-before": "no.safestart.kiosk/.HomeActivity",
+    "tile-skyss": "no.safestart.kiosk/.HomeActivity",
+    "after-tile-probes": "no.safestart.kiosk/.HomeActivity",
+    "chess": "no.safestart.kiosk/.HomeActivity",
+    "after-chess": "no.safestart.kiosk/.HomeActivity",
+    "escape-home": "no.safestart.kiosk/.HomeActivity",
+    "escape-recents": "no.safestart.kiosk/.HomeActivity",
+    "escape-statusbar": "no.safestart.kiosk/.HomeActivity",
+    "escape-back": "no.safestart.kiosk/.HomeActivity",
+    "foreign-app": "no.safestart.kiosk/.HomeActivity",
+    "parent": "no.safestart.kiosk/.HomeActivity",
+    "before-direct": "no.safestart.kiosk/.HomeActivity",
+    "parent-direct": "no.safestart.kiosk/.HomeActivity",
+    "relocked": "no.safestart.kiosk/.HomeActivity",
+    "after-power": "",
+    "after-reboot": "no.safestart.kiosk/.HomeActivity"
+  }
+}

@@ -1,0 +1,302 @@
+(På forsiden kan du gjerne sette inn et relevant bilde og logo for selskapet)
+Forretningsplan for Safestart UB
+xx.xx.20xx
+Versjon x.x
+Konfidensiell – Kun til internt bruk Innholdsfortegnelse
+TOC \o "1-3" \h \z \u Sammendrag	 PAGEREF _Toc245207328 \h 3
+1	Forretningsidé og visjon	 PAGEREF _Toc245207329 \h 3
+1.1	Visjon	 PAGEREF _Toc245207330 \h 3
+1.2	Forretningsidé	 PAGEREF _Toc245207331 \h 3
+1.3	Bærekraft	 PAGEREF _Toc245207332 \h 3
+2	Organisering	 PAGEREF _Toc245207333 \h 4
+2.1	organisasjonsform	 PAGEREF _Toc245207334 \h 4
+2.2	Arbeidsfordeling	 PAGEREF _Toc245207335 \h 4
+2.3	Organisasjonskart	 PAGEREF _Toc245207336 \h 4
+2.4 Nettverkskart/ samarbeidspartnere	 PAGEREF _Toc245207337 \h 4
+3	Markedsvurdering	 PAGEREF _Toc245207338 \h 4
+3.1 Bransje	 PAGEREF _Toc245207339 \h 4
+3.2	Kunder	 PAGEREF _Toc245207340 \h 5
+3.3	Konkurrenter	 PAGEREF _Toc245207341 \h 5
+3.4	Totalmarked og antatt markedsandel	 PAGEREF _Toc245207342 \h 5
+4.	Produkt-/ tjenestebeskrivelse	 PAGEREF _Toc245207343 \h 5
+4.1 Beskrivelse av produkt/tjeneste	 PAGEREF _Toc245207344 \h 5
+5.	Markedsplan	 PAGEREF _Toc245207345 \h 6
+5.1 Situasjonsanalyse/SWOT	 PAGEREF _Toc245207346 \h 6
+5.2 Markedsmål	 PAGEREF _Toc245207347 \h 6
+5.3 Markedsstrategi (4/5 Pene)	 PAGEREF _Toc245207348 \h 6
+Segmentering – markedsfokus	 PAGEREF _Toc245207349 \h 6
+5.4 Aktivitetsplan	 PAGEREF _Toc245207350 \h 7
+6.	Økonomi	 PAGEREF _Toc245207351 \h 7
+6.1 Kapitalbehov og finansiering	 PAGEREF _Toc245207352 \h 7
+6.2 Priskalkyle	 PAGEREF _Toc245207353 \h 8
+7.	Fremdriftsplan	 PAGEREF _Toc245207354 \h 8
+8.	Veien videre	 PAGEREF _Toc245207355 \h 8
+Sammendrag
+Sammendraget er en interessevekker og inspirasjon til å lese forretningsplanen. Sammendraget skal kunne stå alene og gi en oversikt over det mest vesentlige i forretningsplanen.
+Kort beskrivelse av bakgrunnen for prosjektet
+Hvem står bak
+Hva er idéen
+left386080
+Tips:
+Skriv sammendraget til slutt
+Sammendraget bør maks være 1-2 sider, gjerne kortere
+Bruk «vinnende» poenger og ordlyd for å vekke interesse
+00
+Tips:
+Skriv sammendraget til slutt
+Sammendraget bør maks være 1-2 sider, gjerne kortere
+Bruk «vinnende» poenger og ordlyd for å vekke interesse
+Hvordan vurderes markedet for produktet/tjenesten?
+Forretningsidé og visjon
+Visjon
+Beskrivelse av bedriftens «ønskemål». Definer visjon for din bedrift.
+left358140Tips:
+Visjonen kan være det Ingebrigt Steen Jenssen omtaler som et «hårete mål», noe man virkelig må strekke seg etter og jobbe hardt for å oppnå.
+020000Tips:
+Visjonen kan være det Ingebrigt Steen Jenssen omtaler som et «hårete mål», noe man virkelig må strekke seg etter og jobbe hardt for å oppnå.
+Forretningsidé
+Konkretiser bedriftens forretningsidé. Den bør være kort og konkret gi svar på hva som er bedriftens produkt/tjeneste og hvilke behov i markedet som skal dekkes. Forretningsideen skal skape forståelse, aksept og begeistring for det bedriften skal drive med.
+Hva skal bedriften gjøre?
+For hvem skal man gjøre det?
+Hvordan skal man gjøre det?
+Hva er det unike ved produktet/tjenesten?
+Bærekraft
+Økonomi
+Safestart UB har ennå ikke dokumentert lønnsomhet. Vi skal måle tidsbruk, materiell, reise og behov for hjelp etter levering. Deretter sammenligner vi kostnaden per mobil med prisen kunden faktisk betaler. Vi bruker familiens egen telefon og undersøker om et fast oppsett med eksisterende programvare kan redusere tidsbruk og unødvendige innkjøp.
+Miljø og klima
+Tjenesten kan forlenge brukstiden til en telefon familien allerede eier. Miljøgevinsten oppstår først hvis dette erstatter kjøp av en ny telefon. Vi har ikke målt utslipp eller energibruk fra oppsett, lading og transport, og oppgir derfor ingen klimabesparelse. Det europeiske miljøbyrået peker på lengre brukstid som et miljøtiltak for elektronikk.
+Arbeidet vårt gjør ingen direkte inngrep i naturen, men produksjon og avfallshåndtering av telefoner kan påvirke miljøet. Vi skal bare sette opp mobiler som fortsatt kan brukes forsvarlig. Telefoner som ikke egner seg, bør leveres til en godkjent returordning for EE-avfall, slik Miljødirektoratet beskriver. Kunden får en guide på ett ark. Vi skal registrere hvor mange mobiler som faktisk tas i bruk igjen, før vi sier at tjenesten reduserer avfall.
+Sosiale vilkår
+Vi skal fordele oppgaver og arbeidstid tydelig mellom medlemmene og følge opp at alle kan delta og lære, uavhengig av bakgrunn og rolle. Hvordan dette fungerer i praksis, må dokumenteres gjennom arbeidsplaner og tilbakemeldinger i teamet.
+For familiene kan tjenesten gi barnet en måte å kontakte hjemmet på, mens foreldrene velger hvilke funksjoner som er tilgjengelige. Vi vil teste guiden med foreldre som har ulik digital erfaring, og undersøke om en mobilkveld med lokale FAU kan være nyttig for nærmiljøet. Medietilsynet understreker at foreldrekontroll ikke gir full beskyttelse. Vi må derfor forklare begrensningene tydelig. Skyss krever dessuten internett, så vi må teste at appen fungerer uten å åpne mer tilgang enn foreldrene ønsker. Kilde: Skyss.
+FNs bærekraftsmål
+Safestart UB knytter idéen først og fremst til mål 12: Ansvarlig forbruk og produksjon, fordi tjenesten kan bidra til lengre bruk av eksisterende elektronikk. Vi kan først dokumentere vårt eget bidrag når familier faktisk har tatt telefonene i bruk igjen.
+Organisering
+2.1 Organisasjonsform
+Safestart UB er en ungdomsbedrift ved Amalie Skram videregående skole i Bergen. Bedriften består av seks elever som utvikler en tjeneste for foreldre som vil gjøre en mobil de allerede eier, om til barnets første mobil.
+Foretaksnavn: Safestart UB
+Adresse og telefon: [fyll inn bedriftens kontaktopplysninger]
+Organisasjonsnummer: [fyll inn hvis bedriften er registrert]
+Eiere og styremedlemmer: [fyll inn når dette er avklart]
+2.2 Arbeidsfordeling
+Vi fordeler arbeidet etter ansvarsområder, men tar viktige beslutninger sammen.
+Isak Nesse, daglig leder: Koordinerer arbeidet, følger opp frister og leder møter.
+Ronja Branum, innkjøps- og salgsansvarlig: Håndterer kundehenvendelser, salg og innkjøp av nødvendig materiell.
+Emil Storaas, markeds- og kommunikasjonsansvarlig: Utarbeider informasjon til foreldre og FAU og har ansvar for bedriftens markedsføring.
+Emilie Lillefosse, personal- og økonomiansvarlig: Følger opp arbeidsfordeling, trivsel, budsjett og regnskap.
+Milena Belchenko, økonomi- og produksjonsansvarlig: Planlegger oppsett av mobilene, kontrollerer kostnader per oppdrag og følger opp kvaliteten på tjenesten.
+Pavlo Larichev, IT- og bærekraftsansvarlig: Undersøker hvilke mobiler som kan brukes, lager rutiner for sletting og oppsett og vurderer hvordan eksisterende mobiler kan brukes videre.
+Før vi tilbyr tjenesten til kunder, må vi teste at de valgte mobilene faktisk støtter funksjonene vi lover, særlig kart og Skyss, samtidig som foreldrene kan begrense annen bruk.
+Organisasjonskart
+2.4 Nettverkskart/ samarbeidspartnere
+Safestart UB har foreløpig ingen dokumenterte samarbeidspartnere. Vi vil undersøke samarbeid med FAU ved lokale skoler om «mobilkvelder», der flere foreldre kan få hjelp til å sette opp familiens egen mobil samme kveld. Vi vil også søke råd fra en person med teknisk kompetanse om sikker sletting, foreldrekontroll og hvilke mobilmodeller som egner seg.
+Vi fører opp navn, dato og konkret bidrag når en samarbeidspartner har sagt ja. Skyss er en tjeneste mobilen må kunne bruke, men er ikke en samarbeidspartner uten en avtale.
+Markedsvurdering
+3.1 Bransje
+Beskrivelse av bransjen bedriften retter seg inn mot.
+Markedets tilstand (veletablert marked eller marked i utvikling - utviklingstrender)
+Tilgjengelige distribusjonskanaler / markedsapparat
+Forhold som regulerer samarbeidet mellom leverandører og produsenter.
+Reguleringer eller restriksjoner med betydning eller føringer i bransjen
+Potensielle samarbeidspartnere
+Kunder
+Identifiser de mest aktuelle kundene, og beskriv hva som kjennetegner kundene
+Geografi / lokalisering
+Demografi (alder, kjønn osv.)
+Kjøpspreferanser (kjøpskriterier)
+Volum og regelmessighet
+Betalingsviljen
+Kundenes økonomiske kapasitet
+right358775Tips:
+Markedsundersøkelse bør foretas på et tidlig tidspunkt i prosessen. Dersom en markedsundersøkelse er gjennomført, legg ved og kommenter resultatene.
+020000Tips:
+Markedsundersøkelse bør foretas på et tidlig tidspunkt i prosessen. Dersom en markedsundersøkelse er gjennomført, legg ved og kommenter resultatene.
+Konkurrenter
+Identifiser konkurrentene
+Sterke og svake sider
+Markedsposisjon
+Grad av rivalisering
+Distribusjon
+Prisstruktur og politikk
+Salgsmetode
+right268605Tips:
+Beskriv potensielle nye aktører og relevante substitutter dersom mulig
+Ved å studere konkurrentene dine grundig kan du skaffe deg mye informasjon om ditt fremtidige marked, om prisstrategi, markedsføring og differensiering.
+020000Tips:
+Beskriv potensielle nye aktører og relevante substitutter dersom mulig
+Ved å studere konkurrentene dine grundig kan du skaffe deg mye informasjon om ditt fremtidige marked, om prisstrategi, markedsføring og differensiering.
+Totalmarked og antatt markedsandel
+Anslå totalmarkedet og vurder hvor stor andel av dette markedet det er realistisk at selskapet kan oppnå.
+Produkt-/ tjenestebeskrivelse
+4.1 Beskrivelse av produkt/tjeneste
+Beskriv produktet/tjenesten du skal tilby med vekt på hvilke behov de skal dekke hos kundene
+Produktet/tjenestens egenart/unikhet
+Produktet/tjenestens fortrinn i forhold til eksisterende løsninger
+Eksisterende hindringer
+Beskrivelse av produksjon av produktet/tjenesten
+Beskrivelse av underleveranser med et avhengighetsforhold og sikring av dette
+right358775Tips:
+Husk at de som leser forretningsplanen kan ha begrenset kunnskap om det aktuelle området.
+Alle tekniske begreper som benyttes bør forklares.
+Ta med nødvendig bakgrunnsinformasjon og unngå å legge for stor vekt på de tekniske detaljene.
+020000Tips:
+Husk at de som leser forretningsplanen kan ha begrenset kunnskap om det aktuelle området.
+Alle tekniske begreper som benyttes bør forklares.
+Ta med nødvendig bakgrunnsinformasjon og unngå å legge for stor vekt på de tekniske detaljene.
+Markedsplan
+5.1 Situasjonsanalyse/SWOT
+En SWOT analyse er en oppsummering av dagens situasjon og skal være et utgangspunkt for å velge veien videre. Hva er de sterke og svake sidene til produktet/tjenesten? Hvordan vurderer du mulighetene og truslene i markedet?
+For en fullstendig oversikt over SWOT-analyse kan du sjekke ut vår SWOT-mal på våre websider https://skape.no/maler/swot-analyse-mal
+Styrker (internt)
+| Svakheter (internt)
+| Vi bruker gamle mobiler som familier allerede har.
+| Ikke alle gamle mobiler fungerer like bra.
+| Billigere enn å kjøpe en ny mobil.
+| Det kan ta tid å sette opp og låse hver mobil.
+| Foreldrene får kontroll over hva barnet kan bruke.
+| Vi er avhengige av at mobilen støtter Skyss og kart.
+| Et tryggere alternativ til smarttelefon for barn.
+| Vi må kunne hjelpe kundene hvis noe ikke fungerer.
+|
+Muligheter (eksternt)
+| Trusler (eksternt)
+| Mange foreldre ønsker en tryggere førstemobil til barna sine.
+| Andre bedrifter kan tilby lignende løsninger.
+| Vi kan samarbeide med skoler og FAU.
+| Teknologien og mobilene kan endre seg.
+| Vi kan arrangere mobilkvelder for foreldre.
+| Foreldre kan velge å sette opp mobilene selv.
+| Flere blir opptatt av barns skjermbruk og sosiale medier.
+| Noen foreldre kan være usikre på om gamle mobiler er gode nok.
+|
+5.2 Markedsmål
+Hva skal du oppnå med markedsføringen? Sett spesifikke mål.
+0224790Tips:
+Målsettingene skal være konkrete og målbare.
+Del opp mål i finansielle og operative mål
+Finn metoder for å kvantifisere kvalitative målsettinger
+Del gjerne mål opp i mål knyttet til marked, markedsføring, salg, organisering etc. dersom det er hensiktsmessig.
+020000Tips:
+Målsettingene skal være konkrete og målbare.
+Del opp mål i finansielle og operative mål
+Finn metoder for å kvantifisere kvalitative målsettinger
+Del gjerne mål opp i mål knyttet til marked, markedsføring, salg, organisering etc. dersom det er hensiktsmessig.
+Finansielle mål:
+Selge 10–15 mobiler i løpet av det første halvåret.
+Gå i overskudd og tjene litt penger på salget.
+Få 1–2 bestillinger på mobilkveld.
+Markedsføringsmål:
+Opprette en Instagram-konto for bedriften.
+Få minst 100 følgere på Instagram.
+Dele informasjon om produktet med foreldre og FAU på lokale skoler.
+Få flere til å bli kjent med konseptet vårt.
+Salgsmål:
+Få minst 10 betalende kunder.
+Få noen kunder til å anbefale oss videre til andre foreldre.
+Få tilbakemeldinger fra minst 5 kunder for å kunne forbedre produktet.
+Organisatoriske mål:
+Fordele arbeidsoppgavene mellom medlemmene i bedriften.
+Sørge for at alle mobiler blir testet før de leveres.
+Gi kundene en enkel bruksanvisning og god service.
+Oppsummering:
+Målet vårt er å gjøre bedriften kjent blant foreldre og få de første kundene. Vi ønsker å starte i liten skala, få gode tilbakemeldinger og etter hvert utvikle konseptet videre.
+5.3 Markedsstrategi (4/5 Pene)
+Segmentering – markedsfokus
+Beskrivelse av selskapet posisjonering i forhold til kunder og konkurrenter
+Primære målgruppe (geografisk eller demografisk segmentering)
+Kjøpsvaner i målgruppen
+Mulighet for å inngå allianser med samarbeidspartnere som letter tilgangen til markedet/målgruppen
+Deretter beskriv følgende:
+produkt
+pris
+plass
+påvirkning
+personale?
+5.4 Aktivitetsplan
+Oversikt over hvilke markedsaktiviteter bedriften skal gjennomføre til hvilken tid.
+Reklame, markedskampanjer, salgsmesser, nyhetsbrev, og arrangementer er eksempler på ulike typer markedsaktiviteter.
+Aktivitetsplan bør gi oversikt over:
+Målgruppe, budskap og kanal
+Aktivitetet som skal gjennomføres
+Budjsett for hvor mye aktiviteten skal koste
+Tidspunkt for når aktivitetene skal gjennomføres
+Hvem som har ansvar for å gjennomføre aktivitetene
+(Alt dette kan settes opp i et skjema)
+6350289560Tips:
+Kjenn dine kunders adferd og handlemønster
+Sett opp en realistisk og detaljert plan som inneholder type aktivitet, beskrivelse av hensikt og målsetting og mål (målbare tall), tidsperiode og kostnad (summeres opp). Gjør gjerne dette i en matrise
+Sett deg inn i hvilke digitale kanaler som er relevante for deg og ditt produkt/tjeneste
+La deg inspirere av andre som er gode på digital markedsføring
+Det er lov å prøve og feile
+00Tips:
+Kjenn dine kunders adferd og handlemønster
+Sett opp en realistisk og detaljert plan som inneholder type aktivitet, beskrivelse av hensikt og målsetting og mål (målbare tall), tidsperiode og kostnad (summeres opp). Gjør gjerne dette i en matrise
+Sett deg inn i hvilke digitale kanaler som er relevante for deg og ditt produkt/tjeneste
+La deg inspirere av andre som er gode på digital markedsføring
+Det er lov å prøve og feile
+NB! Tiltakene skal henge nøye sammen med markedmål  og målgruppe
+Økonomi
+right344170Tips:
+Budsjettene bør være realistiske og gode budsjetter i en etableringsfase
+Lag gjerne «i beste fall – i verste fall» budsjetter dersom det er hensiktsmessig
+Gjennom grundig arbeid med budsjettene får man god innsikt i hva som kreves for «å gå i null», og hvor lang tid det går før man begynner å tjene penger.
+Det er viktig å presisere forutsetninger som ligger til grunn for budsjetteringen, slik at man kan gjøre nødvendige tiltak dersom målene ikke nås.
+Ha alltid god oversikt over fremtidig likviditet. Det er mye større sannsynlighet for å få ytterligere finansiering fra private investorer eller offentlige støttegivere dersom man er ute i god tid enn dersom kassen allerede er bunnskrapt
+00Tips:
+Budsjettene bør være realistiske og gode budsjetter i en etableringsfase
+Lag gjerne «i beste fall – i verste fall» budsjetter dersom det er hensiktsmessig
+Gjennom grundig arbeid med budsjettene får man god innsikt i hva som kreves for «å gå i null», og hvor lang tid det går før man begynner å tjene penger.
+Det er viktig å presisere forutsetninger som ligger til grunn for budsjetteringen, slik at man kan gjøre nødvendige tiltak dersom målene ikke nås.
+Ha alltid god oversikt over fremtidig likviditet. Det er mye større sannsynlighet for å få ytterligere finansiering fra private investorer eller offentlige støttegivere dersom man er ute i god tid enn dersom kassen allerede er bunnskrapt
+6.1 Kapitalbehov og finansiering
+Beskrivelse av hvordan er kapitalbehovet tenkt finansiert
+Egeninnsats
+Egne penger
+Private investorer
+Lånefinansiering fra banker
+Offentlig støtte
+6.2 Priskalkyle
+Hvis hvordan dere har beregnet prisen. Her kan dere velge hvilken metode dere vil bruke. Skriv en konklusjon ut ifra valgt pris. Kan gjerne gjøre en null punkt analyse også.
+6.3 Resultatbudsjett
+Sett inn resultatbudsjettet ditt og kommenter.
+Fremdriftsplan
+Beskrivelse av hvilke mål som skal nås og når. Fremdriftsplan som er realistisk med milepæler og strategiske beslutningspunkter.
+Arbeidsoppgaver
+Hensikt
+Metode
+Hvem er ansvarlig for gjennomføring
+0284271Tips:
+Konkretiser fremdriftsplanen i en kalender
+Relater planen til budsjetter
+020000Tips:
+Konkretiser fremdriftsplanen i en kalender
+Relater planen til budsjetter
+Veien videre
+Safestart UB skal først teste tjenesten på ulike brukte mobiler. Vi må kontrollere at ringefunksjon, SMS, kamera, kart og Skyss fungerer etter at foreldrene har begrenset annen bruk. Mobilmodeller som ikke består testen, tar vi ikke imot til oppsett.
+Deretter vil vi tilby oppsett av familiens egen mobil til foreldre. Vi vil også undersøke om FAU ved lokale skoler er interessert i en mobilkveld der flere foreldre får hjelp samtidig. Tilbakemeldinger fra de første kundene skal avgjøre hvordan vi forbedrer oppsettet og guiden.
+Vi har foreløpig ikke dokumenterte salgstall eller overskudd. Før vi setter en endelig pris, må vi måle tidsbruk og kostnader per mobil og undersøke hva foreldre er villige til å betale. Vi følger omsetning og kostnader fortløpende. Videre drift avhenger av at tjenesten fungerer pålitelig, at kunder vil betale, og at inntektene dekker kostnadene.
+Emil skriver
+3.1
+3.2
+3.3
+3.4
+Isak skriver
+Sammendrag
+1.1
+1.2
+4.1
+Ronja skriver
+5.3
+5.4
+Emilie skriver
+6.1
+6.2
+6.3
+Pavlo skriver
+1.3
+2.1
+2.2
+2.3
+2.4
+7.
+8.

@@ -1,0 +1,121 @@
+=== api 31 label baseline apk Safestart-v0-baseline.apk
+ro.build.version.release = 12
+ro.build.version.sdk = 31
+ro.build.version.security_patch = 2022-08-01
+ro.build.fingerprint = Android/sdk_phone64_arm64/emulator64_arm64:12/SE1A.220621.001/8752307:userdebug/test-keys
+install: Performing Streamed Install Success
+helper qadialer.apk : skipped, image has its own dialer+messaging
+helper qaskyss.apk : Serving... Performing Incremental Install Success Install command complete in 31 ms All files should be loaded. Notifying the device.
+camera package: priority=0 preferredOrder=0 match=0x108000 specificIndex=-1 isDefault=true
+com.android.camera2
+dpm set-device-owner: Success: Device owner set to package no.safestart.kiosk/.AdminReceiver Active admin set to component no.safestart.kiosk/.AdminReceiver
+ui 00-chooser texts: 'Safestart' | '12:13' | 'VENTER' | 'Hei!' | 'Hva vil du gjøre?' | 'Ring' | 'Ikke her' | 'Meldinger' | 'SMS til kjente' | 'Kamera' | 'Ikke her' | 'Kart' | 'Ikke her' | 'Skyss' | 'Ikke her' | 'Sjakk' | 'Mot en bot' | 'Mamma & Pappa' | 'Ett trykk ringer hjem' | 'Telefonen virker alltid.'
+ui 01-chooser texts: 'Safestart' | '12:13' | 'LÅST' | 'Hei!' | 'Hva vil du gjøre?' | 'Ring' | 'Ikke her' | 'Meldinger' | 'SMS til kjente' | 'Kamera' | 'Ikke her' | 'Kart' | 'Ikke her' | 'Skyss' | 'Ikke her' | 'Sjakk' | 'Mot en bot' | 'Mamma & Pappa' | 'Ett trykk ringer hjem' | 'Telefonen virker alltid.'
+screenshot 01-home 118151 bytes
+tiles home {"phone": "Ikke her", "sms": "SMS til kjente", "camera": "Ikke her", "maps": "Ikke her", "skyss": "Ikke her", "chess": "Mot en bot"}
+[home] lock_task=True foreground=no.safestart.kiosk/.HomeActivity
+lock task after wait: True
+ui probe-phone texts: 'Safestart' | '12:14' | 'LÅST' | 'Hei!' | 'Hva vil du gjøre?' | 'Ring' | 'Ikke her' | 'Meldinger' | 'SMS til kjente' | 'Kamera' | 'Ikke her' | 'Kart' | 'Ikke her' | 'Skyss' | 'Ikke her' | 'Sjakk' | 'Mot en bot' | 'Mamma & Pappa' | 'Ett trykk ringer hjem' | 'Telefonen virker alltid.'
+[tile-phone-before] lock_task=True foreground=no.safestart.kiosk/.HomeActivity
+screenshot tile-phone 32549 bytes
+ui tile-phone texts: 'Messaging' | 'Once you start a new conversation, you’ll see it listed here'
+[tile-phone] lock_task=True foreground=com.android.messaging/.ui.conversationlist.ConversationListActivity
+[tile Ring] -> com.android.messaging/.ui.conversationlist.ConversationListActivity opened=True
+ui probe-sms texts: 'Safestart' | '12:14' | 'LÅST' | 'Hei!' | 'Hva vil du gjøre?' | 'Ring' | 'Ikke her' | 'Meldinger' | 'SMS til kjente' | 'Kamera' | 'Ikke her' | 'Kart' | 'Ikke her' | 'Skyss' | 'Ikke her' | 'Sjakk' | 'Mot en bot' | 'Mamma & Pappa' | 'Ett trykk ringer hjem' | 'Telefonen virker alltid.'
+[tile-sms-before] lock_task=True foreground=no.safestart.kiosk/.HomeActivity
+screenshot tile-sms 32549 bytes
+ui tile-sms texts: 'Messaging' | 'Once you start a new conversation, you’ll see it listed here'
+[tile-sms] lock_task=True foreground=com.android.messaging/.ui.conversationlist.ConversationListActivity
+[tile Meldinger] -> com.android.messaging/.ui.conversationlist.ConversationListActivity opened=True
+ui probe-camera texts: 'SAFESTART' | 'Sjakk' | 'Tilbake' | 'Din tur. Du spiller hvitt.' | 'Nivå 1 · lett' | 'Ny runde'
+!! tile Kamera not on screen
+ui probe-skyss texts: 'Safestart' | '12:14' | 'VENTER' | 'Hei!' | 'Hva vil du gjøre?' | 'Ring' | 'Ikke her' | 'Meldinger' | 'SMS til kjente' | 'Kamera' | 'Ikke her' | 'Kart' | 'Ikke her' | 'Skyss' | 'Ikke her' | 'Sjakk' | 'Mot en bot' | 'Mamma & Pappa' | 'Ett trykk ringer hjem' | 'Telefonen virker alltid.'
+[tile-skyss-before] lock_task=True foreground=no.safestart.kiosk/.HomeActivity
+screenshot tile-skyss 117758 bytes
+ui tile-skyss texts: 'Safestart' | '12:14' | 'VENTER' | 'Hei!' | 'Hva vil du gjøre?' | 'Ring' | 'Ikke her' | 'Meldinger' | 'SMS til kjente' | 'Kamera' | 'Ikke her' | 'Kart' | 'Ikke her' | 'Skyss' | 'Ikke her' | 'Sjakk' | 'Mot en bot' | 'Mamma & Pappa' | 'Ett trykk ringer hjem' | 'Telefonen virker alltid.'
+[tile-skyss] lock_task=True foreground=no.safestart.kiosk/.HomeActivity
+[tile Skyss] -> no.safestart.kiosk/.HomeActivity opened=False
+ui 01b-home-back texts: 'Safestart' | '12:14' | 'LÅST' | 'Hei!' | 'Hva vil du gjøre?' | 'Ring' | 'Ikke her' | 'Meldinger' | 'SMS til kjente' | 'Kamera' | 'Ikke her' | 'Kart' | 'Ikke her' | 'Skyss' | 'Ikke her' | 'Sjakk' | 'Mot en bot' | 'Mamma & Pappa' | 'Ett trykk ringer hjem' | 'Telefonen virker alltid.'
+[after-tile-probes] lock_task=True foreground=no.safestart.kiosk/.HomeActivity
+screenshot 02-chess 59991 bytes
+ui 02-chess texts: 'Safestart' | '12:14' | 'LÅST' | 'Hei!' | 'Hva vil du gjøre?' | 'Ring' | 'Ikke her' | 'Meldinger' | 'SMS til kjente' | 'Kamera' | 'Ikke her' | 'Kart' | 'Ikke her' | 'Skyss' | 'Ikke her' | 'Sjakk' | 'Mot en bot' | 'Mamma & Pappa' | 'Ett trykk ringer hjem' | 'Telefonen virker alltid.'
+[chess] lock_task=True foreground=no.safestart.kiosk/.HomeActivity
+[after-chess] lock_task=True foreground=no.safestart.kiosk/.HomeActivity
+screenshot 03-after-home 117758 bytes
+ui 03-after-home texts: 'Safestart' | '12:14' | 'LÅST' | 'Hei!' | 'Hva vil du gjøre?' | 'Ring' | 'Ikke her' | 'Meldinger' | 'SMS til kjente' | 'Kamera' | 'Ikke her' | 'Kart' | 'Ikke her' | 'Skyss' | 'Ikke her' | 'Sjakk' | 'Mot en bot' | 'Mamma & Pappa' | 'Ett trykk ringer hjem' | 'Telefonen virker alltid.'
+[escape-home] lock_task=True foreground=no.safestart.kiosk/.HomeActivity
+screenshot 04-recents 117758 bytes
+ui 04-recents texts: 'Safestart' | '12:14' | 'LÅST' | 'Hei!' | 'Hva vil du gjøre?' | 'Ring' | 'Ikke her' | 'Meldinger' | 'SMS til kjente' | 'Kamera' | 'Ikke her' | 'Kart' | 'Ikke her' | 'Skyss' | 'Ikke her' | 'Sjakk' | 'Mot en bot' | 'Mamma & Pappa' | 'Ett trykk ringer hjem' | 'Telefonen virker alltid.'
+[escape-recents] lock_task=True foreground=no.safestart.kiosk/.HomeActivity
+screenshot 05-statusbar 84616 bytes
+ui 05-statusbar texts: 'FORELDRE' | 'Skriv PIN-koden' | '– – – –' | ' ' | '1' | '2' | '3' | '4' | '5' | '6' | '7' | '8' | '9' | '0' | '⌫' | 'Avbryt'
+[escape-statusbar] lock_task=True foreground=no.safestart.kiosk/.HomeActivity
+[escape-back] lock_task=True foreground=no.safestart.kiosk/.HomeActivity
+screenshot 06-foreign-app 117758 bytes
+ui 06-foreign-app texts: 'Safestart' | '12:15' | 'LÅST' | 'Hei!' | 'Hva vil du gjøre?' | 'Ring' | 'Ikke her' | 'Meldinger' | 'SMS til kjente' | 'Kamera' | 'Ikke her' | 'Kart' | 'Ikke her' | 'Skyss' | 'Ikke her' | 'Sjakk' | 'Mot en bot' | 'Mamma & Pappa' | 'Ett trykk ringer hjem' | 'Telefonen virker alltid.'
+[foreign-app] lock_task=True foreground=no.safestart.kiosk/.HomeActivity
+ui 07-home-again texts: 'Safestart' | '12:15' | 'LÅST' | 'Hei!' | 'Hva vil du gjøre?' | 'Ring' | 'Ikke her' | 'Meldinger' | 'SMS til kjente' | 'Kamera' | 'Ikke her' | 'Kart' | 'Ikke her' | 'Skyss' | 'Ikke her' | 'Sjakk' | 'Mot en bot' | 'Mamma & Pappa' | 'Ett trykk ringer hjem' | 'Telefonen virker alltid.'
+ui 08-pin texts: 'FORELDRE' | 'Skriv PIN-koden' | '– – – –' | ' ' | '1' | '2' | '3' | '4' | '5' | '6' | '7' | '8' | '9' | '0' | '⌫' | 'Avbryt'
+screenshot 08-pin 84753 bytes
+ui 09-parent texts: 'FORELDRE' | 'Skriv PIN-koden' | '• • • –' | 'Feil PIN' | '1' | '2' | '3' | '4' | '5' | '6' | '7' | '8' | '9' | '0' | '⌫' | 'Avbryt'
+screenshot 09-parent 86906 bytes
+[parent] lock_task=True foreground=no.safestart.kiosk/.HomeActivity
+waiting for the 5 s parent door token to expire
+[before-direct] lock_task=True foreground=no.safestart.kiosk/.HomeActivity
+ui 10-parent-direct texts: 'FORELDRE' | 'Skriv PIN-koden' | '• • • –' | 'Feil PIN' | '1' | '2' | '3' | '4' | '5' | '6' | '7' | '8' | '9' | '0' | '⌫' | 'Avbryt'
+screenshot 10-parent-direct 86906 bytes
+[parent-direct] refused = True
+[parent-direct] lock_task=True foreground=no.safestart.kiosk/.HomeActivity
+ui 10b-pin texts: 'FORELDRE' | 'Skriv PIN-koden' | '• • • –' | 'Feil PIN' | '1' | '2' | '3' | '4' | '5' | '6' | '7' | '8' | '9' | '0' | '⌫' | 'Avbryt'
+ui 10c-parent-0 texts: 'FORELDRE' | 'Skriv PIN-koden' | '• • • –' | 'Feil PIN' | '1' | '2' | '3' | '4' | '5' | '6' | '7' | '8' | '9' | '0' | '⌫' | 'Avbryt'
+!! wanted edit field not visible, scrolling down
+ui 10c-parent-1 texts: 'FORELDRE' | 'Skriv PIN-koden' | '• • • –' | 'Feil PIN' | '1' | '2' | '3' | '4' | '5' | '6' | '7' | '8' | '9' | '0' | '⌫' | 'Avbryt'
+!! wanted edit field not visible, scrolling down
+ui 10c-parent-2 texts: 'FORELDRE' | 'Skriv PIN-koden' | '• • • –' | 'Feil PIN' | '1' | '2' | '3' | '4' | '5' | '6' | '7' | '8' | '9' | '0' | '⌫' | 'Avbryt'
+!! wanted edit field not visible, scrolling down
+ui 10c-parent-3 texts: 'FORELDRE' | 'Skriv PIN-koden' | '• • • –' | 'Feil PIN' | '1' | '2' | '3' | '4' | '5' | '6' | '7' | '8' | '9' | '0' | '⌫' | 'Avbryt'
+!! wanted edit field not visible, scrolling down
+ui 10c-parent-4 texts: 'FORELDRE' | 'Skriv PIN-koden' | '• • • –' | 'Feil PIN' | '1' | '2' | '3' | '4' | '5' | '6' | '7' | '8' | '9' | '0' | '⌫' | 'Avbryt'
+!! wanted edit field not visible, scrolling down
+ui 10c-parent-5 texts: 'FORELDRE' | 'Skriv PIN-koden' | '• • • –' | 'Feil PIN' | '1' | '2' | '3' | '4' | '5' | '6' | '7' | '8' | '9' | '0' | '⌫' | 'Avbryt'
+!! wanted edit field not visible, scrolling down
+ui 10c-parent-6 texts: 'FORELDRE' | 'Skriv PIN-koden' | '• • • –' | 'Feil PIN' | '1' | '2' | '3' | '4' | '5' | '6' | '7' | '8' | '9' | '0' | '⌫' | 'Avbryt'
+ui 10f-close texts: 'FORELDRE' | 'Skriv PIN-koden' | '• • • –' | 'Feil PIN' | '1' | '2' | '3' | '4' | '5' | '6' | '7' | '8' | '9' | '0' | '⌫' | 'Avbryt'
+!! 'Lukk' is not visible, scrolling down
+ui 10f-close-1 texts: 'FORELDRE' | 'Skriv PIN-koden' | '• • • –' | 'Feil PIN' | '1' | '2' | '3' | '4' | '5' | '6' | '7' | '8' | '9' | '0' | '⌫' | 'Avbryt'
+!! 'Lukk' is not visible, scrolling down
+ui 10f-close-2 texts: 'FORELDRE' | 'Skriv PIN-koden' | '• • • –' | 'Feil PIN' | '1' | '2' | '3' | '4' | '5' | '6' | '7' | '8' | '9' | '0' | '⌫' | 'Avbryt'
+!! 'Lukk' is not visible, scrolling down
+ui 10f-close-3 texts: 'FORELDRE' | 'Skriv PIN-koden' | '• • • –' | 'Feil PIN' | '1' | '2' | '3' | '4' | '5' | '6' | '7' | '8' | '9' | '0' | '⌫' | 'Avbryt'
+!! 'Lukk' is not visible, scrolling down
+ui 10f-close-4 texts: 'FORELDRE' | 'Skriv PIN-koden' | '• • • –' | 'Feil PIN' | '1' | '2' | '3' | '4' | '5' | '6' | '7' | '8' | '9' | '0' | '⌫' | 'Avbryt'
+!! 'Lukk' is not visible, scrolling down
+ui 10f-close-5 texts: 'FORELDRE' | 'Skriv PIN-koden' | '• • • –' | 'Feil PIN' | '1' | '2' | '3' | '4' | '5' | '6' | '7' | '8' | '9' | '0' | '⌫' | 'Avbryt'
+!! 'Lukk' is not visible, scrolling down
+ui 10f-close-6 texts: 'FORELDRE' | 'Skriv PIN-koden' | '• • • –' | 'Feil PIN' | '1' | '2' | '3' | '4' | '5' | '6' | '7' | '8' | '9' | '0' | '⌫' | 'Avbryt'
+!! 'Lukk' not found even after scrolling
+ui 11-home-number texts: 'FORELDRE' | 'Skriv PIN-koden' | '• • • –' | 'Feil PIN' | '1' | '2' | '3' | '4' | '5' | '6' | '7' | '8' | '9' | '0' | '⌫' | 'Avbryt'
+ui 13-home-before-unlock texts: 'FORELDRE' | 'Skriui 15-parent2 texts: 'FORELDRE' | 'Skriv PIN-koden' | '• • • –' | 'Feil PIN' | '1' | '2' | '3' | '4' | '5' | '6' | '7ui 14-pin2 texts: 'FORELDRE' | 'Skriv PIN-koden' | '• • • –' | 'Feil PIN' | '1' | '2' ui 15-parent2-1 texts: 'FORELDRE' | 'Skriv PIN-koden' | '• • �ui 15-parent2 texts: 'FORELDRE' | 'Skriv PIN-koden' | '• • • –' | 'Feil PIN' | '1' | '2' | '3' | '4' | '5' | '6' | '7' | '8' | '9' | '0' | '⌫' | 'Avbryt'
+!! 'Lås opp telefonen' is not visible, scrolling down
+ui 15-parent2-1 texts: 'FORELDRE' | 'Skriv PIN-koden' | '• • • –' | 'Feil PIN' | '1' | '2' | '3' | '4' | '5' | '6' | '7' | '8' | '9' | '0' | '⌫' | 'Avbryt'
+!! 'Lås opp telefonen' is not visible, scrolling down
+ui 15-parent2-2 texts: 'FORELDRE' | 'Skriv PIN-koden' | '• • • –' | 'Feil PIN' | '1' | '2' | '3' | '4' | '5' | '6' | '7' | '8' | '9' | '0' | '⌫' | 'Avbryt'
+!! 'Lås opp telefonen' is not visible, scrolling down
+ui 15-parent2-3 texts: 'FORELDRE' | 'Skriv PIN-koden' | '• • • –' | 'Feil PIN' | '1' | '2' | '3' | '4' | '5' | '6' | '7' | '8' | '9' | '0' | '⌫' | 'Avbryt'
+!! 'Lås opp telefonen' is not visible, scrolling down
+ui 15-parent2-4 texts: 'FORELDRE' | 'Skriv PIN-koden' | '• • • –' | 'Feil PIN' | '1' | '2' | '3' | '4' | '5' | '6' | '7' | '8' | '9' | '0' | '⌫' | 'Avbryt'
+!! 'Lås opp telefonen' is not visible, scrolling down
+ui 15-parent2-5 texts: 'FORELDRE' | 'Skriv PIN-koden' | '• • • –' | 'Feil PIN' | '1' | '2' | '3' | '4' | '5' | '6' | '7' | '8' | '9' | '0' | '⌫' | 'Avbryt'
+!! 'Lås opp telefonen' iui 17-relocked texts: 'FORELDRui 15-parent2-6 texts: 'FORELDRE' | 'Skriv PIN-koden' | '• • • –' | 'Feil PIN' | '1' | '2' | '3' | '4' | '5' | '6' | '7' | '8' | '9' | '0' | '⌫' | 'Avbryt'
+!! 'Lås opp telefonen' not found even after scrolling
+screenshot 17-relocked 86675 bytes
+ui 1ui 17b-power texts: 'FORELDRE' | 'Skriv PIN-koden' | '• • • –' | 'Feil PIN' | '1' | '2' | '3' | '4' | '5' | '6' | '7' | '8' | '9' | '0' | '⌫' | 'Avbryt'
+screenshot 17b-power 86675 bytes
+[power] texts: FORELDRE | Skriv PIN-koden | • • • – | Feil PIN | 1 | 2 | 3 | 4 | 5!! ui dump unusable for 17b-power ParseError
+screenshot 17b-power 0 bytes
+[power] texts: 
+[after-power] lock_task=False forboot_completed after rebboot_complui 18-after-reboot textsui 18-after-reboot texts: 'Safestart' | '12:18' | 'LÅST' | 'Hei!' | 'Hva vil du gjøre?' | 'Ring' | 'Ikke her' | 'Meldinger' | 'SMS til kjente' | 'Kamera' | 'Ikke her' | 'Kart' | 'Ikke her' | 'Skyss' | 'Ikke her' | 'Sjakk' | 'Mot en bot' | 'Mamma & Pappa' | 'Ett trykk ringer hjem' | 'Telefonen virker alltid.'
+screenshot 18-after-reboot 118223 bytes
+tiles after_reboot {"phone": "Ikke her", "sms": "SMS til kjente", "camera": "Ikke her", "maps": "Ikke her", "skyss": "Ikke her", "chess": "Mot en bot"}
+[after-reboot] lock_task=True foreground=no.safestart.kiosk/.HomeActivity
+=== done /Users/panygolf/Documents/ub-mobil/qa/results/api31-baseline

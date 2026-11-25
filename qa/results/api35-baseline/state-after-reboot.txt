@@ -1,0 +1,44 @@
+=== lock: dumpsys activity | grep -i lock
+bcast_max_core_running_blocking_broadcasts=16 
+    bcast_max_core_running_non_blocking_broadcasts=64 
+      extras: Bundle[{android.telephony.extra.SUBSCRIPTION_INDEX=1, android.telephony.extra.SLOT_INDEX=0, android.telephony.extra.CARRIER_ID=1, phone=0, subscription=1, android.telephony.extra.SPECIFIC_CARRIER_ID=1, android.telephony.extra.REBROADCAST_ON_UNLOCK=false}]
+      extras: Bundle[{android.telephony.extra.SUBSCRIPTION_INDEX=1, android.telephony.extra.SLOT_INDEX=0, phoneName=Phone, reason=null, rebroadcastOnUnlock=true, ss=READY, phone=0, subscription=1}]
+    #96: BroadcastRecord{83b7849 android.intent.action.LOCKED_BOOT_COMPLETED/u0}
+      act=android.intent.action.LOCKED_BOOT_COMPLETED flg=0x89000010 (has extras)
+    #103: BroadcastRecord{8868e82 android.app.action.LOCK_TASK_ENTERING/u0}
+      act=android.app.action.LOCK_TASK_ENTERING flg=0x10 cmp=no.safestart.kiosk/.AdminReceiver (has extras)
+      extras: Bundle[{android.app.extra.LOCK_TASK_PACKAGE=no.safestart.kiosk}]
+    #126: BroadcastRecord{df71b40 android.intent.action.USER_UNLOCKED/u0}
+      act=android.intent.action.USER_UNLOCKED flg=0x50000010 (has extras)
+      extras: Bundle[{host_connected=false, connected=false, unlocked=false, adb=true, configured=false}]
+      extras: Bundle[{android.safetycenter.extra.REFRESH_SAFETY_SOURCES_REQUEST_TYPE=1, android.safetycenter.extra.REFRESH_SAFETY_SOURCES_BROADCAST_ID=70037d0e-95ec-469c-89b9-537c09388a31_0, android.safetycenter.extra.REFRESH_SAFETY_SOURCE_IDS=[AndroidLockScreen, AndroidBiometrics, AndroidPrivateSpace]}]
+  * Sticky action android.os.UpdateLock.UPDATE_LOCK_CHANGED
+  * ContentProviderRecord{7d55673 u0 com.android.providers.blockednumber/.BlockedNumberProvider}
+    authority=com.android.blockednumber
+  mLastWakeLockHoldingWindow=null
+  mLastWakeLockObscuringWindow=null
+    canShowWhenLocked=true
+    mShowingDream=false mDreamingLockscreen=false
+    mForceShowNavigationBarEnabled=false mAllowLockscreenWhenOn=false
+    mDemoHdmiRotation=ROTATION_90 mDemoHdmiRotationLock=false mUndockedHdmiRotation=-1
+    RotationLockHistory
+      11-24 14:19:15.768: mode=USER_ROTATION_FREE, rotation=ROTATION_0, caller=UiAutomationConnection#restoreRotationStateLocked
+  LockTaskController:
+    mLockTaskModeState=LOCKED
+    mLockTaskModeTasks=
+    mLockTaskPackages (userId:packages)=
+  mGoingToSleepWakeLock=WakeLock{a1965f0 held=false, refCount=0}
+  mLaunchingActivityWakeLock=WakeLock{17fb769 held=false, refCount=0}
+    User #0: state=RUNNING_UNLOCKED
+  mLastActiveUsersForDelayedLocking:[]
+  mDelayUserDataLocking:false
+  mAllowUserUnlocking:true
+  mLastUserUnlockingUptime: 10370
+=== policy: dumpsys device_policy | grep -i -E 'owner|lock task|status'
+Device Owner: 
+    mPasswordOwner=-1
+Encryption Status: per-user
+  Device Owner Type: 0
+=== fg: dumpsys activity activities | grep -E 'mResumedActivity|mFocusedActivity|ResumedActivity'
+topResumedActivity=ActivityRecord{e078afb u0 no.safestart.kiosk/.HomeActivity t12}
+  ResumedActivity: ActivityRecord{e078afb u0 no.safestart.kiosk/.HomeActivity t12}

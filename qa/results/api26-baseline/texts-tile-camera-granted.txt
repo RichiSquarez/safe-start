@@ -1,0 +1,3 @@
+'Remember photo locations?' @359,88
+"Tag your photos and videos with the locations where they're taken." @360,540
+'NEXT' @360,1100

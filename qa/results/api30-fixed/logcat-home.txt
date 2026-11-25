@@ -1,0 +1,24 @@
+--------- beginning of kernel
+--------- beginning of main
+--------- beginning of system
+11-24 09:34:32.509  2417  2417 I Safestart: pakke ikke synlig eller installert: no.skyss.billett
+11-24 09:34:32.510  2417  2417 I Safestart: pakke ikke synlig eller installert: no.skyss.reise
+11-24 09:34:32.510  2417  2417 I Safestart: pakke ikke synlig eller installert: no.skyss
+11-24 09:34:32.510  2417  2417 I Safestart: pakke ikke synlig eller installert: no.skyss.tickets
+11-24 09:34:32.514  2417  2417 I Safestart: pakke ikke synlig eller installert: no.skyss.billett
+11-24 09:34:32.514  2417  2417 I Safestart: pakke ikke synlig eller installert: no.skyss.reise
+11-24 09:34:32.514  2417  2417 I Safestart: pakke ikke synlig eller installert: no.skyss
+11-24 09:34:32.515  2417  2417 I Safestart: pakke ikke synlig eller installert: no.skyss.tickets
+11-24 09:34:32.515  2417  2417 I Safestart: allowlist (4): [no.safestart.kiosk, com.android.dialer, com.android.messaging, com.android.camera2]
+11-24 09:34:32.521  2417  2417 I Safestart: applied allowlist: [no.safestart.kiosk, com.android.dialer, com.android.messaging, com.android.camera2]
+11-24 09:45:30.813  2417  2417 I Safestart: pakke ikke synlig eller installert: no.skyss.billett
+11-24 09:45:30.813  2417  2417 I Safestart: pakke ikke synlig eller installert: no.skyss.reise
+11-24 09:45:30.813  2417  2417 I Safestart: pakke ikke synlig eller installert: no.skyss
+11-24 09:45:30.813  2417  2417 I Safestart: pakke ikke synlig eller installert: no.skyss.tickets
+11-24 09:45:30.816  2417  2417 I Safestart: pakke ikke synlig eller installert: no.skyss.billett
+11-24 09:45:30.816  2417  2417 I Safestart: pakke ikke synlig eller installert: no.skyss.reise
+11-24 09:45:30.816  2417  2417 I Safestart: pakke ikke synlig eller installert: no.skyss
+11-24 09:45:30.816  2417  2417 I Safestart: pakke ikke synlig eller installert: no.skyss.tickets
+11-24 09:45:30.816  2417  2417 I Safestart: allowlist (4): [no.safestart.kiosk, com.android.dialer, com.android.messaging, com.android.camera2]
+11-24 09:45:30.931  2417  2417 I Safestart: applied allowlist: [no.safestart.kiosk, com.android.dialer, com.android.messaging, com.android.camera2]
+

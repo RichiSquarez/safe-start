@@ -1,0 +1,111 @@
+=== api 33 label fixed apk Safestart-v1-fixed.apk
+ro.build.version.release = 13
+ro.build.version.sdk = 33
+ro.build.version.security_patch = 2022-11-05
+ro.build.fingerprint = Android/sdk_phone64_arm64/emulator64_arm64:13/TE1A.220922.034/10940250:userdebug/test-keys
+install: Performing Streamed Install Success
+helper qadialer.apk : skipped, image has its own dialer+messaging
+helper qaskyss.apk : Serving... Performing Incremental Install Success Install command complete in 4448 ms All files should be loaded. Notifying the device.
+camera package: priority=0 preferredOrder=0 match=0x108000 specificIndex=-1 isDefault=true
+com.android.camera2
+dpm set-device-owner: Success: Device owner set to package no.safestart.kiosk/.AdminReceiver Active admin set to component no.safestart.kiosk/.AdminReceiver
+ui 00-chooser texts: 'Safestart' | '13:51' | 'VENTER' | 'Hei!' | 'Hva vil du gjøre?' | 'Ring' | 'Alltid tilgjengelig' | 'Meldinger' | 'SMS til kjente' | 'Kamera' | 'Ta bilder' | 'Kart' | 'Ikke her' | 'Skyss' | 'Bussbillett' | 'Sjakk' | 'Mot en bot' | 'Mamma & Pappa' | 'Ett trykk ringer hjem' | 'Telefonen virker alltid.'
+ui 01-chooser texts: 'Safestart' | '13:51' | 'LÅST' | 'Hei!' | 'Hva vil du gjøre?' | 'Ring' | 'Alltid tilgjengelig' | 'Meldinger' | 'SMS til kjente' | 'Kamera' | 'Ta bilder' | 'Kart' | 'Ikke her' | 'Skyss' | 'Bussbillett' | 'Sjakk' | 'Mot en bot' | 'Mamma & Pappa' | 'Ett trykk ringer hjem' | 'Telefonen virker alltid.'
+screenshot 01-home 123558 bytes
+tiles home {"phone": "Alltid tilgjengelig", "sms": "SMS til kjente", "camera": "Ta bilder", "maps": "Ikke her", "skyss": "Bussbillett", "chess": "Mot en bot"}
+[home] lock_task=True foreground=no.safestart.kiosk/.HomeActivity
+logcat allowlist: 11-24 13:51:11.672  2536  2536 I Safestart: allowlist (5): [no.safestart.kiosk, com.android.dialer, com.android.messaging, com.android.camera2, no.skyss.billett]
+lock task after wait: True
+ui probe-phone texts: 'Safestart' | '13:51' | 'LÅST' | 'Hei!' | 'Hva vil du gjøre?' | 'Ring' | 'Alltid tilgjengelig' | 'Meldinger' | 'SMS til kjente' | 'Kamera' | 'Ta bilder' | 'Kart' | 'Ikke her' | 'Skyss' | 'Bussbillett' | 'Sjakk' | 'Mot en bot' | 'Mamma & Pappa' | 'Ett trykk ringer hjem' | 'Telefonen virker alltid.'
+[tile-phone-before] lock_task=True foreground=no.safestart.kiosk/.HomeActivity
+screenshot tile-phone 44097 bytes
+ui tile-phone texts: '1' | '2' | 'ABC' | '3' | 'DEF' | '4' | 'GHI' | '5' | 'JKL' | '6' | 'MNO' | '7' | 'PQRS' | '8' | 'TUV' | '9' | 'WXYZ' | '*' | '0' | '+' | '#' | 'No one is on your speed dial yet' | 'ADD A FAVORITE'
+[tile-phone] lock_task=True foreground=com.android.dialer/.main.impl.MainActivity
+[tile Ring] -> com.android.dialer/.main.impl.MainActivity opened=True
+ui probe-sms texts: 'Safestart' | '13:51' | 'LÅST' | 'Hei!' | 'Hva vil du gjøre?' | 'Ring' | 'Alltid tilgjengelig' | 'Meldinger' | 'SMS til kjente' | 'Kamera' | 'Ta bilder' | 'Kart' | 'Ikke her' | 'Skyss' | 'Bussbillett' | 'Sjakk' | 'Mot en bot' | 'Mamma & Pappa' | 'Ett trykk ringer hjem' | 'Telefonen virker alltid.'
+[tile-sms-before] lock_task=True foreground=no.safestart.kiosk/.HomeActivity
+screenshot tile-sms 32939 bytes
+ui tile-sms texts: 'Messaging' | 'Once you start a new conversation, you’ll see it listed here'
+[tile-sms] lock_task=True foreground=com.android.messaging/.ui.conversationlist.ConversationListActivity
+[tile Meldinger] -> com.android.messaging/.ui.conversationlist.ConversationListActivity opened=True
+ui probe-camera texts: 'Safestart' | '13:51' | 'LÅST' | 'Hei!' | 'Hva vil du gjøre?' | 'Ring' | 'Alltid tilgjengelig' | 'Meldinger' | 'SMS til kjente' | 'Kamera' | 'Ta bilder' | 'Kart' | 'Ikke her' | 'Skyss' | 'Bussbillett' | 'Sjakk' | 'Mot en bot' | 'Mamma & Pappa' | 'Ett trykk ringer hjem' | 'Telefonen virker alltid.'
+[tile-camera-before] lock_task=True foreground=no.safestart.kiosk/.HomeActivity
+screenshot tile-camera 123558 bytes
+ui tile-camera texts: 'Safestart' | '13:51' | 'LÅST' | 'Hei!' | 'Hva vil du gjøre?' | 'Ring' | 'Alltid tilgjengelig' | 'Meldinger' | 'SMS til kjente' | 'Kamera' | 'Ta bilder' | 'Kart' | 'Ikke her' | 'Skyss' | 'Bussbillett' | 'Sjakk' | 'Mot en bot' | 'Mamma & Pappa' | 'Ett trykk ringer hjem' | 'Telefonen virker alltid.'
+[tile-camera] lock_task=True foreground=no.safestart.kiosk/.HomeActivity
+[tile Kamera] -> no.safestart.kiosk/.HomeActivity opened=False
+ui probe-skyss texts: 'Safestart' | '13:51' | 'LÅST' | 'Hei!' | 'Hva vil du gjøre?' | 'Ring' | 'Alltid tilgjengelig' | 'Meldinger' | 'SMS til kjente' | 'Kamera' | 'Ta bilder' | 'Kart' | 'Ikke her' | 'Skyss' | 'Bussbillett' | 'Sjakk' | 'Mot en bot' | 'Mamma & Pappa' | 'Ett trykk ringer hjem' | 'Telefonen virker alltid.'
+[tile-skyss-before] lock_task=True foreground=no.safestart.kiosk/.HomeActivity
+screenshot tile-skyss 28547 bytes
+ui tile-skyss texts: 'Skyss (QA)' | 'QA SKYSS' | 'no.skyss.billett / MainActivity'
+[tile-skyss] lock_task=True foreground=no.skyss.billett/.MainActivity
+[tile Skyss] -> no.skyss.billett/.MainActivity opened=True
+ui 01b-home-back texts: 'Safestart' | '13:52' | 'LÅST' | 'Hei!' | 'Hva vil du gjøre?' | 'Ring' | 'Alltid tilgjengelig' | 'Meldinger' | 'SMS til kjente' | 'Kamera' | 'Ta bilder' | 'Kart' | 'Ikke her' | 'Skyss' | 'Bussbillett' | 'Sjakk' | 'Mot en bot' | 'Mamma & Pappa' | 'Ett trykk ringer hjem' | 'Telefonen virker alltid.'
+[after-tile-probes] lock_task=True foreground=no.safestart.kiosk/.HomeActivity
+screenshot 02-chess 47774 bytes
+ui 02-chess texts: 'SAFESTART' | 'Sjakk' | 'Tilbake' | 'Din tur. Du spiller hvitt.' | 'Nivå 1 · lett' | 'Ny runde'
+[chess] lock_task=True foreground=no.safestart.kiosk/.ChessActivity
+[after-chess] lock_task=True foreground=no.safestart.kiosk/.HomeActivity
+screenshot 03-after-home 124096 bytes
+ui 03-after-home texts: 'Safestart' | '13:52' | 'LÅST' | 'Hei!' | 'Hva vil du gjøre?' | 'Ring' | 'Alltid tilgjengelig' | 'Meldinger' | 'SMS til kjente' | 'Kamera' | 'Ta bilder' | 'Kart' | 'Ikke her' | 'Skyss' | 'Bussbillett' | 'Sjakk' | 'Mot en bot' | 'Mamma & Pappa' | 'Ett trykk ringer hjem' | 'Telefonen virker alltid.'
+[escape-home] lock_task=True foreground=no.safestart.kiosk/.HomeActivity
+screenshot 04-recents 124096 bytes
+ui 04-recents texts: 'Safestart' | '13:52' | 'LÅST' | 'Hei!' | 'Hva vil du gjøre?' | 'Ring' | 'Alltid tilgjengelig' | 'Meldinger' | 'SMS til kjente' | 'Kamera' | 'Ta bilder' | 'Kart' | 'Ikke her' | 'Skyss' | 'Bussbillett' | 'Sjakk' | 'Mot en bot' | 'Mamma & Pappa' | 'Ett trykk ringer hjem' | 'Telefonen virker alltid.'
+[escape-recents] lock_task=True foreground=no.safestart.kiosk/.HomeActivity
+screenshot 05-statusbar 124096 bytes
+ui 05-statusbar texts: 'Safestart' | '13:52' | 'LÅST' | 'Hei!' | 'Hva vil du gjøre?' | 'Ring' | 'Alltid tilgjengelig' | 'Meldinger' | 'SMS til kjente' | 'Kamera' | 'Ta bilder' | 'Kart' | 'Ikke her' | 'Skyss' | 'Bussbillett' | 'Sjakk' | 'Mot en bot' | 'Mamma & Pappa' | 'Ett trykk ringer hjem' | 'Telefonen virker alltid.'
+[escape-statusbar] lock_task=True foreground=no.safestart.kiosk/.HomeActivity
+[escape-back] lock_task=True foreground=no.safestart.kiosk/.HomeActivity
+screenshot 06-foreign-app 124096 bytes
+ui 06-foreign-app texts: 'Safestart' | '13:52' | 'LÅST' | 'Hei!' | 'Hva vil du gjøre?' | 'Ring' | 'Alltid tilgjengelig' | 'Meldinger' | 'SMS til kjente' | 'Kamera' | 'Ta bilder' | 'Kart' | 'Ikke her' | 'Skyss' | 'Bussbillett' | 'Sjakk' | 'Mot en bot' | 'Mamma & Pappa' | 'Ett trykk ringer hjem' | 'Telefonen virker alltid.'
+[foreign-app] lock_task=True foreground=no.safestart.kiosk/.HomeActivity
+ui 07-home-again texts: 'Safestart' | '13:52' | 'LÅST' | 'Hei!' | 'Hva vil du gjøre?' | 'Ring' | 'Alltid tilgjengelig' | 'Meldinger' | 'SMS til kjente' | 'Kamera' | 'Ta bilder' | 'Kart' | 'Ikke her' | 'Skyss' | 'Bussbillett' | 'Sjakk' | 'Mot en bot' | 'Mamma & Pappa' | 'Ett trykk ringer hjem' | 'Telefonen virker alltid.'
+ui 08-pin texts: 'FORELDRE' | 'Skriv PIN-koden' | '– – – –' | ' ' | '1' | '2' | '3' | '4' | '5' | '6' | '7' | '8' | '9' | '0' | '⌫' | 'Avbryt'
+screenshot 08-pin 87109 bytes
+ui 09-parent texts: 'FORELDRE' | 'Innstillinger' | 'Lukk' | 'Device Owner: aktiv — telefonen er låst til Safestart' | 'HVA BARNET FÅR BRUKE' | 'Ring' | 'Kan ikke slås av — det er hele poenget' | 'ALLTID' | 'Meldinger' | 'SMS til kjente' | 'Kamera' | 'Ta bilder' | 'Kart' | 'Se hvor du er' | 'Skyss' | 'Bussbillett' | 'Sjakk' | 'Mot en bot' | 'PIN-KODE'
+screenshot 09-parent 81041 bytes
+[parent] lock_task=True foreground=no.safestart.kiosk/.ParentActivity
+waiting for the 5 s parent door token to expire
+[before-direct] lock_task=True foreground=no.safestart.kiosk/.HomeActivity
+ui 10-parent-direct texts: 'Safestart' | '13:53' | 'LÅST' | 'Hei!' | 'Hva vil du gjøre?' | 'Ring' | 'Alltid tilgjengelig' | 'Meldinger' | 'SMS til kjente' | 'Kamera' | 'Ta bilder' | 'Kart' | 'Ikke her' | 'Skyss' | 'Bussbillett' | 'Sjakk' | 'Mot en bot' | 'Mamma & Pappa' | 'Ett trykk ringer hjem' | 'Telefonen virker alltid.'
+screenshot 10-parent-direct 123581 bytes
+[parent-direct] refused = True
+[parent-direct] lock_task=True foreground=no.safestart.kiosk/.HomeActivity
+ui 10b-pin texts: 'FORELDRE' | 'Skriv PIN-koden' | '– – – –' | ' ' | '1' | '2' | '3' | '4' | '5' | '6' | '7' | '8' | '9' | '0' | '⌫' | 'Avbryt'
+ui 10c-parent-0 texts: 'FORELDRE' | 'Innstillinger' | 'Lukk' | 'Device Owner: aktiv — telefonen er låst til Safestart' | 'HVA BARNET FÅR BRUKE' | 'Ring' | 'Kan ikke slås av — det er hele poenget' | 'ALLTID' | 'Meldinger' | 'SMS til kjente' | 'Kamera' | 'Ta bilder' | 'Kart' | 'Se hvor du er' | 'Skyss' | 'Bussbillett' | 'Sjakk' | 'Mot en bot' | 'PIN-KODE'
+!! wanted edit field not visible, scrolling down
+ui 10c-parent-1 texts: 'FORELDRE' | 'Innstillinger' | 'Lukk' | 'Device Owner: aktiv — telefonen er låst til Safestart' | 'Skyss' | 'Bussbillett' | 'Sjakk' | 'Mot en bot' | 'PIN-KODE' | 'Ny PIN (4–8 siffer)' | 'Lagre ny PIN' | 'MAMMA & PAPPA' | 'Telefonnummer til foreldrene' | 'Lagre nummer' | 'Direkte oppringing er gitt av Device Owner. Knappen trengs bare når Safestart ikke er Device Owner.' | 'LÅSING'
+parent number field at 360 910
+ui 10d-typed texts: 'FORELDRE' | 'Innstillinger' | 'Lukk' | 'Device Owner: aktiv — telefonen er låst til Safestart' | 'Skyss' | 'Bussbillett' | 'Sjakk' | 'Mot en bot' | 'PIN-KODE' | 'Ny PIN (4–8 siffer)' | 'Lagre ny PIN' | 'MAMMA & PAPPA' | '40001234' | 'Lagre nummer' | 'Direkte oppringing er gitt av Device Owner. Knappen trengs bare når Safestart ikke er Device Owner.' | 'LÅSING'
+[parent] number typed: True
+ui 10e-save texts: 'FORELDRE' | 'Innstillinger' | 'Lukk' | 'Device Owner: aktiv — telefonen er låst til Safestart' | 'Skyss' | 'Bussbillett' | 'Sjakk' | 'Mot en bot' | 'PIN-KODE' | 'Ny PIN (4–8 siffer)' | 'Lagre ny PIN' | 'MAMMA & PAPPA' | '40001234' | 'Lagre nummer' | 'Direkte oppringing er gitt av Device Owner. Knappen trengs bare når Safestart ikke er Device Owner.' | 'LÅSING'
+saved parent number
+ui 10f-close texts: 'FORELDRE' | 'Innstillinger' | 'Lukk' | 'Device Owner: aktiv — telefonen er låst til Safestart' | 'Skyss' | 'Bussbillett' | 'Sjakk' | 'Mot en bot' | 'PIN-KODE' | 'Ny PIN (4–8 siffer)' | 'Lagre ny PIN' | 'MAMMA & PAPPA' | '400012348' | 'Lagre nummer' | 'Direkte oppringing er gitt av Device Owner. Knappen trengs bare når Safestart ikke er Device Owner.' | 'LÅSING'
+ui 11-home-number texts: 'Safestart' | '13:53' | 'LÅST' | 'Hei!' | 'Hva vil du gjøre?' | 'Ring' | 'Alltid tilgjengelig' | 'Meldinger' | 'SMS til kjente' | 'Kamera' | 'Ta bilder' | 'Kart' | 'Ikke her' | 'Skyss' | 'Bussbillett' | 'Sjakk' | 'Mot en bot' | 'Mamma & Pappa' | 'Ett trykk ringer hjem' | 'Telefonen virker alltid.'
+screenshot 12-call 86275 bytes
+ui 12-call texts: 'FORELDRE' | 'Skriv PIN-koden' | '– – – –' | ' ' | '1' | '2' | '3' | '4' | '5' | '6' | '7' | '8' | '9' | '0' | '⌫' | 'Avbryt'
+[call] lock_task=True foreground=no.safestart.kiosk/.HomeActivity
+ui 13-home-before-unlock texts: 'Safestart' | '13:53' | 'LÅST' | 'Hei!' | 'Hva vil du gjøre?' | 'Ring' | 'Alltid tilgjengelig' | 'Meldinger' | 'SMS til kjente' | 'Kamera' | 'Ta bilder' | 'Kart' | 'Ikke her' | 'Skyss' | 'Bussbillett' | 'Sjakk' | 'Mot en bot' | 'Mamma & Pappa' | 'Ett trykk ringer hjem' | 'Telefonen virker alltid.'
+ui 14-pin2 texts: 'FORELDRE' | 'Skriv PIN-koden' | '– – – –' | ' ' | '1' | '2' | '3' | '4' | '5' | '6' | '7' | '8' | '9' | '0' | '⌫' | 'Avbryt'
+ui 15-parent2 texts: 'FORELDRE' | 'Innstillinger' | 'Lukk' | 'Device Owner: aktiv — telefonen er låst til Safestart' | 'HVA BARNET FÅR BRUKE' | 'Ring' | 'Kan ikke slås av — det er hele poenget' | 'ALLTID' | 'Meldinger' | 'SMS til kjente' | 'Kamera' | 'Ta bilder' | 'Kart' | 'Se hvor du er' | 'Skyss' | 'Bussbillett' | 'Sjakk' | 'Mot en bot' | 'PIN-KODE'
+!! 'Lås opp telefonen' is not visible, scrolling down
+ui 15-parent2-1 texts: 'FORELDRE' | 'Innstillinger' | 'Lukk' | 'Device Owner: aktiv — telefonen er låst til Safestart' | 'Skyss' | 'Bussbillett' | 'Sjakk' | 'Mot en bot' | 'PIN-KODE' | 'Ny PIN (4–8 siffer)' | 'Lagre ny PIN' | 'MAMMA & PAPPA' | 'Telefonnummer til foreldrene' | 'Lagre nummer' | 'Direkte oppringing er gitt av Device Owner. Knappen trengs bare når Safestart ikke er Device Owner.' | 'LÅSING' | 'Med Device Ow
+!! 'Lås opp telefonen' is not visible, scrolling down
+ui 15-parent2-2 texts: 'FORELDRE' | 'Innstillinger' | 'Lukk' | 'Device Owner: aktiv — telefonen er låst til Safestart' | 'Telefonnummer til foreldrene' | 'Lagre nummer' | 'Direkte oppringing er gitt av Device Owner. Knappen trengs bare når Safestart ikke er Device Owner.' | 'LÅSING' | 'Med Device Owner kan telefonen låses til Safestart: barnet kommer ikke ut, og du kommer inn med PIN-koden. Uten Device Owner er Safestar
+screenshot 16-unlocked 123869 bytes
+[unlocked] lock_task=True foreground=no.safestart.kiosk/.HomeActivity
+screenshot 17-relocked 123869 bytes
+ui 17-relocked texts: 'Safestart' | '13:54' | 'LÅST' | 'Hei!' | 'Hva vil du gjøre?' | 'Ring' | 'Alltid tilgjengelig' | 'Meldinger' | 'SMS til kjente' | 'Kamera' | 'Ta bilder' | 'Kart' | 'Ikke her' | 'Skyss' | 'Bussbillett' | 'Sjakk' | 'Mot en bot' | 'Mamma & Pappa' | 'Ett trykk ringer hjem' | 'Telefonen virker alltid.'
+[relocked] lock_task=True foreground=no.safestart.kiosk/.HomeActivity
+long-pressing power to look for the global actions ...
+ui 17b-power texts: 'Safestart' | '13:54' | 'LÅST' | 'Hei!' | 'Hva vil du gjøre?' | 'Ring' | 'Alltid tilgjengelig' | 'Meldinger' | 'SMS til kjente' | 'Kamera' | 'Ta bilder' | 'Kart' | 'Ikke her' | 'Skyss' | 'Bussbillett' | 'Sjakk' | 'Mot en bot' | 'Mamma & Pappa' | 'Ett trykk ringer hjem' | 'Telefonen virker alltid.'
+screenshot 17b-power 123869 bytes
+[power] texts: Safestart | 13:54 | LÅST | Hei! | Hva vil du gjøre? | Ring | Alltid tilgjengelig | Meldinger | SMS til kjente | Kamera | Ta bilder | Kart | Ikke her | Skyss | Bussbillett | Sjakk | Mot en bot | Mamma & Pappa | Ett trykk ringer hjem | Telefo
+[after-power] lock_task=True foreground=no.safestart.kiosk/.HomeActivity
+rebooting ...
+boot_completed after reboot: True
+ui 18-after-reboot texts: 'Safestart' | '13:55' | 'LÅST' | 'Hei!' | 'Hva vil du gjøre?' | 'Ring' | 'Alltid tilgjengelig' | 'Meldinger' | 'SMS til kjente' | 'Kamera' | 'Ta bilder' | 'Kart' | 'Ikke her' | 'Skyss' | 'Bussbillett' | 'Sjakk' | 'Mot en bot' | 'Mamma & Pappa' | 'Ett trykk ringer hjem' | 'Telefonen virker alltid.'
+screenshot 18-after-reboot 123772 bytes
+tiles after_reboot {"phone": "Alltid tilgjengelig", "sms": "SMS til kjente", "camera": "Ta bilder", "maps": "Ikke her", "skyss": "Bussbillett", "chess": "Mot en bot"}
+[after-reboot] lock_task=True foreground=no.safestart.kiosk/.HomeActivity
+=== done /Users/panygolf/Documents/ub-mobil/qa/results/api33-fixed

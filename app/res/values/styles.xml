@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Framework theme, no AppCompat: the kiosk is built without Gradle and
+         without AndroidX, so everything here is a platform attribute. -->
+    <style name="Safestart" parent="@android:style/Theme.Material.Light.NoActionBar">
+        <item name="android:windowBackground">@android:color/white</item>
+    </style>
+</resources>
